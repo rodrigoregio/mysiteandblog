@@ -1,0 +1,35 @@
+body{
+    background-color: #003300;
+    text-align: center;
+    min-width: 400px;
+}
+.header{
+    display: flex;
+    background-color: #EEffEE;
+    height: 98vh;
+    border-radius: 20px;
+    flex-direction: column;
+    justify-content: center;
+    }
+.header > img{
+    align-self: center;
+}
+.navbar{
+    display: flex;
+    border-radius: 20px;
+    background-color: #eaffea;
+    justify-content: center;
+    margin: 10px 0px 10px 0px;
+}
+.navbar > li{
+    list-style-type: none;
+}
+.navbar > .link{
+    background-color: #eaffea;
+}
+.navbar > .link:visited{
+    background-color: #eaffea;
+}
+.navbar > .link:hover{
+    background-color: #003300;
+}

@@ -1,0 +1,14 @@
+{
+	"version": 3,
+	"file": "style.css",
+	"sources": [
+		"style.scss",
+		"_sass/main.scss"
+	],
+	"sourcesContent": [
+		"@import \"main\";",
+		"body{\r\n    background-color: #003300;\r\n    text-align: center;\r\n    min-width: 400px;\r\n}\r\n.header{\r\n    display: flex;\r\n    background-color: #EEffEE;\r\n    height: 98vh;\r\n    border-radius: 20px;\r\n    flex-direction: column;\r\n    justify-content: center;\r\n    }\r\n.header > img{\r\n    align-self: center;\r\n}\r\n.navbar{\r\n    display: flex;\r\n    border-radius: 20px;\r\n    background-color: #eaffea;\r\n    justify-content: center;\r\n    margin: 10px 0px 10px 0px;\r\n}\r\n.navbar > li{\r\n    list-style-type: none;\r\n}\r\n.navbar > .link{\r\n    background-color: #eaffea;\r\n}\r\n.navbar > .link:visited{\r\n    background-color: #eaffea;\r\n}\r\n.navbar > .link:hover{\r\n    background-color: #003300;\r\n}"
+	],
+	"names": [],
+	"mappings": "ACAA,AAAA,IAAI,CAAA,EACA,gBAAgB,EAAE,OAAO,EACzB,UAAU,EAAE,MAAM,EAClB,SAAS,EAAE,KAAK,GACnB;;AACD,AAAA,OAAO,CAAA,EACH,OAAO,EAAE,IAAI,EACb,gBAAgB,EAAE,OAAO,EACzB,MAAM,EAAE,IAAI,EACZ,aAAa,EAAE,IAAI,EACnB,cAAc,EAAE,MAAM,EACtB,eAAe,EAAE,MAAM,GACtB;;AACL,AAAA,OAAO,GAAG,GAAG,CAAA,EACT,UAAU,EAAE,MAAM,GACrB;;AACD,AAAA,OAAO,CAAA,EACH,OAAO,EAAE,IAAI,EACb,aAAa,EAAE,IAAI,EACnB,gBAAgB,EAAE,OAAO,EACzB,eAAe,EAAE,MAAM,EACvB,MAAM,EAAE,iBAAiB,GAC5B;;AACD,AAAA,OAAO,GAAG,EAAE,CAAA,EACR,eAAe,EAAE,IAAI,GACxB;;AACD,AAAA,OAAO,GAAG,KAAK,CAAA,EACX,gBAAgB,EAAE,OAAO,GAC5B;;AACD,AAAA,OAAO,GAAG,KAAK,CAAC,OAAO,CAAA,EACnB,gBAAgB,EAAE,OAAO,GAC5B;;AACD,AAAA,OAAO,GAAG,KAAK,CAAC,KAAK,CAAA,EACjB,gBAAgB,EAAE,OAAO,GAC5B"
+}
