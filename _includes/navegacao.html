@@ -5,7 +5,9 @@
                 <a href=
                 {% if item.link == '/blog.html' %}
                 "{{ item.link }}"
-                {% elsif item.link != '/blog.html' %} "#{{ item.link }}" {% endif %} class="link">{{ item.name }}</a>
+                {% elsif item.link != '/blog.html' %} 
+                    "#{{ item.link }}" 
+                {% endif %} class="link">{{ item.name }}</a>
             </li>
         {% endfor %}
     </ul>
