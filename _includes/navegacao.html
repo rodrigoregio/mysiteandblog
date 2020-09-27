@@ -1,8 +1,11 @@
 <nav class="navbar">
     <ul>
         {% for item in site.data.navegacao %}
-            <li>
-                <a href="{{ item.link }}" class="link">{{ item.name }}</a>
+            <li style="list-style-type: none;">
+                <a href=
+                {% if item.link == '/blog.html' %}
+                "{{ item.link }}"
+                {% elsif item.link != '/blog.html' %} "#{{ item.link }}" {% endif %} class="link">{{ item.name }}</a>
             </li>
         {% endfor %}
     </ul>

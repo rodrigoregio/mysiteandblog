@@ -1,8 +1,8 @@
 - name: Home
-  link: /
+  link: home
 - name: Projetos
-  link: #projetos
+  link: projetos
 - name: Blog
   link: /blog.html
 - name: Sobre
-  link: #sobre
+  link: sobre
