@@ -83,6 +83,10 @@ p{
     height: 100vh;
     background-color: #caffca;
 }
-@media(min-width: 400px){
+#projetos > ul {
+    list-style: none;
+    text-align: center;
+}
+@media(min-width: 500px){
 
 }
