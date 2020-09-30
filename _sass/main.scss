@@ -6,7 +6,7 @@ body{
 .header{
     background-color: #eaffea;
     display: flex;
-    height: 98vh;
+    height: auto;
     flex-direction: column;
     justify-content: center;
 }
@@ -35,9 +35,8 @@ p{
     position: fixed;
     background-color: #003300;
     align-content: center;
-    width: 100%;
     top: 0px;
-    left: 0px;
+    right: 0px;
 }
 .navbar > ul{
     display: flex;
@@ -65,11 +64,8 @@ p{
     position: fixed;
     background-color: #003300;
     color: #eaffea;
-    align-content: center;
-    width: 100%;
     bottom: 0px;
-    left: 0px;
-    display: contents;
+    right: 0px;
 }
 .rodape > p{
     font-family: 'Roboto Mono', sans-serif;
@@ -78,18 +74,25 @@ p{
 }
 #projetos{
     width: 100%;
-    height: 100vh;
+    height: auto;
     background-color: #daffda;
 }
 #sobre{
     width: 100%;
-    height: 100vh;
+    height: auto;
     background-color: #caffca;
 }
 #projetos > ul {
     list-style: none;
     text-align: center;
 }
-@media(min-width: 500px){
+@media(max-width: 500px){
+    .header > img{
+        padding: 55px;
+    }
+    .rodape {
+        position: inherit;
+        white-space: pre-line;
 
+    }
 }
