@@ -76,6 +76,7 @@ p{
     width: 100%;
     height: auto;
     background-color: #daffda;
+    padding-bottom: 16px;
 }
 #sobre{
     width: 100%;
@@ -87,12 +88,19 @@ p{
     text-align: center;
 }
 @media(max-width: 500px){
+    #projetos{
+        padding-bottom: 0px;
+    }
+    .navbar {
+        position: fixed;
+        width: 100%;
+
+    }
     .header > img{
         padding: 55px;
     }
     .rodape {
         position: inherit;
         white-space: pre-line;
-
     }
 }

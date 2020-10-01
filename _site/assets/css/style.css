@@ -26,12 +26,12 @@ p { font-family: 'Roboto Mono', sans-serif; font-weight: normal; font-size: 1.2r
 
 .rodape > p { font-family: 'Roboto Mono', sans-serif; font-size: 12px; font-weight: 300; }
 
-#projetos { width: 100%; height: auto; background-color: #daffda; }
+#projetos { width: 100%; height: auto; background-color: #daffda; padding-bottom: 16px; }
 
 #sobre { width: 100%; height: auto; background-color: #caffca; }
 
 #projetos > ul { list-style: none; text-align: center; }
 
-@media (max-width: 500px) { .header > img { padding: 55px; } .rodape { position: inherit; white-space: pre-line; } }
+@media (max-width: 500px) { #projetos { padding-bottom: 0px; } .navbar { position: fixed; width: 100%; } .header > img { padding: 55px; } .rodape { position: inherit; white-space: pre-line; } }
 
 /*# sourceMappingURL=style.css.map */
