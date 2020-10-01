@@ -34,6 +34,12 @@ p { font-family: 'Roboto Mono', sans-serif; font-weight: normal; font-size: 1.2r
 
 #sobre > p { text-align: left; padding: 0px 10px 10px 10px; }
 
+.link2 { padding: 10px 10px 10px 10px; font-size: 1.5rem; }
+
+.link2:visited { font-size: 1.5rem; }
+
+.link2:hover { background-color: #003300; color: #eaeaea; }
+
 @media (max-width: 750px) { .header > img { padding: 55px; } }
 
 @media (max-width: 500px) { #projetos { padding-bottom: 0px; } .navbar { position: fixed; width: 100%; } .header > img { padding: 55px; } .rodape { position: inherit; white-space: pre-line; } }
