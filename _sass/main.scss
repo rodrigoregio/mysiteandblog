@@ -72,6 +72,11 @@ p{
     font-size: 12px;
     font-weight: 300;
 }
+#projetos > p {
+    list-style: none;
+    text-align: left;
+    padding: 10px;
+}
 #projetos{
     width: 100%;
     height: auto;
@@ -83,9 +88,16 @@ p{
     height: auto;
     background-color: #caffca;
 }
-#projetos > ul {
-    list-style: none;
-    text-align: center;
+#sobre > p{
+    text-align: left;
+    padding: 0px 10px 10px 10px;
+}
+
+@media(max-width: 750px){
+    .header > img{
+        padding: 55px;
+    }
+    
 }
 @media(max-width: 500px){
     #projetos{
