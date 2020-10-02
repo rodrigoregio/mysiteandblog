@@ -6,15 +6,15 @@ body { text-align: center; min-width: 380px; background-color: #003300; }
 
 h1 { font-family: 'Roboto Mono', sans-serif; font-weight: 300; font-size: 2.5em; letter-spacing: -5px; }
 
-.header > h1 { font-family: 'Roboto Mono', sans-serif; font-weight: 300; font-size: 2rem; letter-spacing: -5px; /*line-height: 0%;*/ }
+.header > h1 { font-family: 'Roboto Mono', sans-serif; font-weight: 300; font-size: 2rem; letter-spacing: -5px; line-height: 0%; }
 
 p { font-family: 'Roboto Mono', sans-serif; font-weight: normal; font-size: 1rem; }
 
 .navbar { position: fixed; background-color: #003300; align-content: center; top: 0px; right: 0px; }
 
-.navbar > ul { display: flex; margin: 10px; padding: 10px; }
+.navbar > ul { display: flex; margin: 10px; }
 
-.navbar > li { display: block; list-style: none; }
+.navbar > li { /*display: block;*/ list-style: none; }
 
 .link { background-color: #003300; color: #eaffea; padding: 10px; }
 
@@ -24,7 +24,7 @@ p { font-family: 'Roboto Mono', sans-serif; font-weight: normal; font-size: 1rem
 
 .rodape { position: fixed; background-color: #003300; color: #eaffea; bottom: 0px; right: 0px; }
 
-.rodape > p { font-family: 'Roboto Mono', sans-serif; font-size: 12px; font-weight: 300; }
+.rodape > p { font-family: 'Roboto Mono', sans-serif; font-size: 0.75rem; font-weight: 300; }
 
 #projetos > p { list-style: none; text-align: left; padding: 10px; }
 

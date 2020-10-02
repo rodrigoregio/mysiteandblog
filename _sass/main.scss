@@ -24,7 +24,7 @@ h1{
     font-weight: 300;
     font-size: 2rem;
     letter-spacing: -5px;
-    /*line-height: 0%;*/
+    line-height: 0%;
 }
 p{
     font-family: 'Roboto Mono', sans-serif;
@@ -41,10 +41,9 @@ p{
 .navbar > ul{
     display: flex;
     margin: 10px;
-    padding: 10px;
 }
 .navbar > li{
-    display: block;
+    /*display: block;*/
     list-style: none;
 }
 .link{
@@ -69,7 +68,7 @@ p{
 }
 .rodape > p{
     font-family: 'Roboto Mono', sans-serif;
-    font-size: 12px;
+    font-size: 0.75rem;
     font-weight: 300;
 }
 #projetos > p {
