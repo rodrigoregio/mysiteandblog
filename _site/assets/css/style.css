@@ -2,7 +2,7 @@ body { text-align: center; min-width: 380px; background-color: #003300; }
 
 .header { background-color: #eaffea; display: flex; height: auto; flex-direction: column; justify-content: center; }
 
-.header > img { align-self: center; }
+.header > img { align-self: center; padding: 45px 0px 0px 0px; }
 
 h1 { font-family: 'Roboto Mono', sans-serif; font-weight: 300; font-size: 2.5em; letter-spacing: -5px; }
 
@@ -40,8 +40,8 @@ p { font-family: 'Roboto Mono', sans-serif; font-weight: normal; font-size: 1rem
 
 .link2:hover { background-color: #003300; color: #eaeaea; }
 
-@media (max-width: 900px) { .header > img { padding: 60px; } }
+@media (max-width: 500px) { #projetos { padding-bottom: 0px; } .navbar { position: fixed; width: 100%; } .rodape { position: inherit; white-space: pre-line; } }
 
-@media (max-width: 500px) { #projetos { padding-bottom: 0px; } .navbar { position: fixed; width: 100%; } .header > img { padding: 60px; } .rodape { position: inherit; white-space: pre-line; } }
+@media (min-widgth: 1500px) { section { width: 50%; } }
 
 /*# sourceMappingURL=style.css.map */

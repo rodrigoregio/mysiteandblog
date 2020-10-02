@@ -12,6 +12,7 @@ body{
 }
 .header > img{
     align-self: center;
+    padding: 45px 0px 0px 0px;
 }
 h1{
     font-family: 'Roboto Mono', sans-serif;
@@ -103,12 +104,6 @@ p{
     background-color: #003300;
     color: #eaeaea;
 }
-
-@media(max-width: 900px){
-    .header > img{
-        padding: 60px;
-    }
-}
 @media(max-width: 500px){
     #projetos{
         padding-bottom: 0px;
@@ -116,13 +111,14 @@ p{
     .navbar {
         position: fixed;
         width: 100%;
-
-    }
-    .header > img{
-        padding: 60px;
     }
     .rodape {
         position: inherit;
         white-space: pre-line;
+    }
+}
+@media(min-widgth: 1500px){
+    section{
+        width: 50%;
     }
 }
