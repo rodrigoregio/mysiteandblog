@@ -22,14 +22,14 @@ h1{
 .header > h1{
     font-family: 'Roboto Mono', sans-serif;
     font-weight: 300;
-    font-size: 2.5em;
+    font-size: 2rem;
     letter-spacing: -5px;
     /*line-height: 0%;*/
 }
 p{
     font-family: 'Roboto Mono', sans-serif;
     font-weight: normal;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 .navbar{
     position: fixed;
@@ -105,9 +105,9 @@ p{
     color: #eaeaea;
 }
 
-@media(max-width: 750px){
+@media(max-width: 900px){
     .header > img{
-        padding: 55px;
+        padding: 60px;
     }
 }
 @media(max-width: 500px){
@@ -120,7 +120,7 @@ p{
 
     }
     .header > img{
-        padding: 55px;
+        padding: 60px;
     }
     .rodape {
         position: inherit;
