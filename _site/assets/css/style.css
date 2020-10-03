@@ -4,9 +4,9 @@ body { text-align: center; min-width: 380px; background-color: #003300; }
 
 .header > img { align-self: center; padding: 45px 0px 0px 0px; }
 
-h1 { font-family: 'Roboto Mono', sans-serif; font-weight: 300; font-size: 2.5em; letter-spacing: -5px; }
+h1 { font-family: 'Roboto Mono', sans-serif; font-weight: 300; font-size: 2.5em; letter-spacing: -5px; line-height: 40px; }
 
-.header > h1 { font-family: 'Roboto Mono', sans-serif; font-weight: 300; font-size: 3rem; letter-spacing: -7.5px; line-height: 50px; }
+.header > h1 { font-family: 'Roboto Mono', sans-serif; font-weight: 300; font-size: 4rem; letter-spacing: -7.5px; line-height: 60px; }
 
 p { font-family: 'Roboto Mono', sans-serif; font-weight: normal; font-size: 1rem; }
 
@@ -39,6 +39,8 @@ p { font-family: 'Roboto Mono', sans-serif; font-weight: normal; font-size: 1rem
 .link2:visited { font-size: 1.5rem; }
 
 .link2:hover { background-color: #003300; color: #eaeaea; }
+
+#poste { background-color: #eaffea; color: #003300; text-align: left; }
 
 @media (max-width: 500px) { #projetos { padding-bottom: 0px; } .navbar { position: fixed; width: 100%; } .rodape { position: inherit; white-space: pre-line; } }
 

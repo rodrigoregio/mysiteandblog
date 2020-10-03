@@ -1,0 +1,37 @@
+I"�
+<h1 id="iniciando-com-jekyll">Iniciando com Jekyll</h1>
+
+<p>Olá Mundo, Google e pessoal. Este é para ser o primeiro post de meu blog que estou criando, onde nele explicarei o porque, pra que e como estou criando isto. Primeiramente o porque?</p>
+
+<p>Estou criando este blog porque recentemente estou ouvindo muitos canais de programadores dizendo que é importante saber como escrever algo onde você documenta toda a sua experiência sobre uma determinada tecnologia pois isto te ajuda a organizar o processamento do que se está falando. E com certa razão quem consegue explicar algo em um texto consegue explicar isto também em audio, video ou qualquer outra forma.</p>
+
+<p>Então estou fazendo este blog para poder organizar melhor o meu entendimento sobre um determinado assunto que estou estudando naquele dia. Mesmo que este conhecimento seja vago, mas e ou que ninguém nunca leia estes posts quero criar isto para tentar organizar minhas ideias, entendimentos tentando explicar.</p>
+
+<p>E por fim como farei este blog. Bom, para iniciar tentarei fazer ele com um criador de sites estáticos chamado Jekyll, e procurarei estudar sobre o mesmo nesses dias iniciais, o que sei sobre ele é que ele utiliza Ruby e que com ele podemos criar páginas e hospedar onde quisermos pois ele não utiliza nenhuma linguagem de programação avançada (como php, jsp, python, etc) e também não dá pra fazer conexões com banco de dados. Também sei que ele utiliza também linguagem markdown, a que o github utiliza no arquivo Readme dos repositórios, a linguagem de markdown é como um html simplificado, pelo menos dizia no tutorial do Guanabara do Curso em Vídeo, onde ele ensina Git e GitHub com GitHub Desktop no link abaixo.</p>
+
+<p><a href="https://youtu.be/LntSB-gl-ZI">https://youtu.be/LntSB-gl-ZI</a></p>
+
+<p>E para iniciar segue informações de como instalar o jekyll em meu computador.</p>
+
+<p><a href="Iniciando/Iniciando_com_Jekyll.md">Instalando Jekyll</a></p>
+
+<p><a href="Iniciando/Fazendo_e_servindo_primeira_pagina.md">Fazendo e servindo primeira página</a></p>
+
+<p><a href="Iniciando/Liquid.md">Liquid…</a></p>
+
+<p><a href="Iniciando/Layout.md">Layout</a></p>
+
+<p><a href="Iniciando/Includes.md">Includes</a></p>
+
+<p><a href="Iniciando/Arquivos_de_dados.md">Arquivos de dados</a></p>
+
+<p><a href="Iniciando/Assets.md">Assets</a></p>
+
+<p><a href="Iniciando/Blogging.md">Blogging</a></p>
+
+<p><a href="Iniciando/Colecoes.md">Coleções</a></p>
+
+<p><a href="Iniciando/Deploy%20237c879cbb28465d9dfe33252f778de8.md">Deploy</a></p>
+
+<p><a href="Iniciando%20com%20Jekyll%2048f0e5aefc2e4d309b208f64c3529bdd/Considerac%CC%A7o%CC%83es%20finais%201c97c190fa9e4193962735ed171785db.md">Considerações finais</a></p>
+:ET

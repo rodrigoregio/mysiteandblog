@@ -1,0 +1,170 @@
+I"�!<h1 id="blogging">Blogging</h1>
+
+<p>Você deve estar se perguntando como posso ter um blog sem um banco de dados? Na verdade o estilo que Jekyll trabalha em blogging é somente com textos.</p>
+
+<h3 id="posts">Posts</h3>
+
+<p>Os posts do blog ficam em uma pasta chamada _posts. E eles tem um nome de arquivo com formato especial primeiramente eles tem uma data no formato <a href="http://yyyy-mm-dd-titulo.md"><strong>YYYY-MM-DD-titulo.md</strong></a> onde Y é ano (com quatro digitos) M é mês com dois digitos e DD é o dia com dois digitos.</p>
+
+<p>Vamos criar nosso primeiro post sobre bananas, vamos criar o post com a data de hoje então ficará assim _posts/2020-09-05-bananas.png e colocaremos o conteudo abaixo:</p>
+
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nn">---</span>
+<span class="na">layout</span><span class="pi">:</span> <span class="s">post</span>
+<span class="na">author</span><span class="pi">:</span> <span class="s">jill</span>
+<span class="nn">---</span>
+A banana é uma fruta comestivel - botanicamente o fruto - produzido por muitos
+tipos de uma planta grande com flores largas do gênero Musa.
+
+Em alguns países, bananas usadas para cozinhar podem ser chamadas de "plátanos",
+distinguivel das sobremesas de banana. A fruta é variável em tamanho, cor e firmeza,
+mas também é normalmente alongada e curva, com polpa macia rica em amido coberta por
+uma casca que pode ser verde, amarela, vermelha, roxa ou marrom quando madura.
+</code></pre></div></div>
+
+<p>Este arquivo acima é como o <a href="http://about.md">about.md</a> criado anteriormente. Exceto por nele conter um autor e um layout diferente.</p>
+
+<p>Falando em <strong>layout</strong> vamos criar um layout para nossos posts o então o arquivo terá o nome post.html e terá o caminho <strong>_post/post.html</strong>. Segue codigo do layout dos posts:</p>
+
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nn">---</span>
+<span class="na">layout</span><span class="pi">:</span> <span class="s">default</span>
+<span class="nn">---</span>
+<span class="nt">&lt;h1&gt;</span>Blogging<span class="nt">&lt;/h1&gt;</span>
+<span class="nt">&lt;p&gt;</span>25 Sep 2020 - <span class="nt">&lt;/p&gt;</span><span class="sb">
+
+
+</span></code></pre></div></div>
+
+<p>No exemplo acima usamos a herança de layout, pous herdamos o layout default e definimos como será o nosso novo layout. Repare também que usamos o comando (dentro da tag p) date_to_string no post diz que isto formata a data em um formato mais legal (será que da pra formatar isto? colocar por exemplo a data em formato brasileiro (DD-MM-YYYY)? Acho que depois descobriremos, continuando agora vamos linkar nosso post em alguma pagina…</p>
+
+<p>E o autor continua… Atualmente não há uma maneira de navegar para o post do blog. Tipicamente, blogs tem uma página que lista todos os posts e este será o próximo passo.</p>
+
+<p>Jekyll torna disponivel a variavel <strong>site.posts.</strong> Vamos criar a página <strong>blog.html</strong> na raiz do projeto (juntamente com nosso index.html). Segue codigo abaixo:</p>
+
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nn">---</span>
+<span class="na">layout</span><span class="pi">:</span> <span class="s">default</span>
+<span class="na">title</span><span class="pi">:</span> <span class="s">Blog</span>
+<span class="nn">---</span>
+<span class="nt">&lt;h1&gt;</span>Ultimos posts<span class="nt">&lt;/h1&gt;</span>
+
+<span class="nt">&lt;ul&gt;</span>
+	
+		<span class="nt">&lt;li&gt;</span>
+			<span class="nt">&lt;h2&gt;</span>
+				<span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"/2020/09/25/IniciandocomJekyll.html"</span><span class="nt">&gt;</span>Iniciandocomjekyll<span class="nt">&lt;/a&gt;</span>
+			<span class="nt">&lt;/h2&gt;</span>
+			<span class="nt">&lt;h1</span> <span class="na">id=</span><span class="s">"iniciando-com-jekyll"</span><span class="nt">&gt;</span>Iniciando com Jekyll<span class="nt">&lt;/h1&gt;</span><span class="sb">
+
+		&lt;/li&gt;
+	
+		&lt;li&gt;
+			&lt;h2&gt;
+				&lt;a href="/2020/09/25/Includes.html"&gt;Includes&lt;/a&gt;
+			&lt;/h2&gt;
+			&lt;h1 id="includes"&gt;Includes&lt;/h1&gt;
+
+		&lt;/li&gt;
+	
+		&lt;li&gt;
+			&lt;h2&gt;
+				&lt;a href="/2020/09/25/Fazendo_e_servindo_primeira_pagina.html"&gt;Fazendo_e_servindo_primeira_pagina&lt;/a&gt;
+			&lt;/h2&gt;
+			&lt;h1 id="fazendo-e-servindo-primeira-página"&gt;Fazendo e servindo primeira página&lt;/h1&gt;
+
+		&lt;/li&gt;
+	
+		&lt;li&gt;
+			&lt;h2&gt;
+				&lt;a href="/2020/09/25/Deploy.html"&gt;Deploy&lt;/a&gt;
+			&lt;/h2&gt;
+			&lt;h1 id="deploy"&gt;Deploy&lt;/h1&gt;
+
+		&lt;/li&gt;
+	
+		&lt;li&gt;
+			&lt;h2&gt;
+				&lt;a href="/2020/09/25/Consideracoes_finais.html"&gt;Consideracoes_finais&lt;/a&gt;
+			&lt;/h2&gt;
+			&lt;h1 id="considerações-finais"&gt;Considerações finais&lt;/h1&gt;
+
+		&lt;/li&gt;
+	
+		&lt;li&gt;
+			&lt;h2&gt;
+				&lt;a href="/2020/09/25/Colecoes.html"&gt;Colecoes&lt;/a&gt;
+			&lt;/h2&gt;
+			&lt;h1 id="coleções"&gt;Coleções&lt;/h1&gt;
+
+		&lt;/li&gt;
+	
+		&lt;li&gt;
+			&lt;h2&gt;
+				&lt;a href="/2020/09/25/Blogging.html"&gt;Blogging&lt;/a&gt;
+			&lt;/h2&gt;
+			&lt;h1 id="blogging"&gt;Blogging&lt;/h1&gt;
+
+		&lt;/li&gt;
+	
+		&lt;li&gt;
+			&lt;h2&gt;
+				&lt;a href="/2020/09/25/Assets.html"&gt;Assets&lt;/a&gt;
+			&lt;/h2&gt;
+			&lt;h1 id="assets"&gt;Assets&lt;/h1&gt;
+
+		&lt;/li&gt;
+	
+		&lt;li&gt;
+			&lt;h2&gt;
+				&lt;a href="/2020/09/25/Arquivos_de_dados.html"&gt;Arquivos_de_dados&lt;/a&gt;
+			&lt;/h2&gt;
+			&lt;h1 id="arquivos-de-dados"&gt;Arquivos de dados&lt;/h1&gt;
+
+		&lt;/li&gt;
+	
+</span><span class="nt">&lt;/ul&gt;</span>
+</code></pre></div></div>
+
+<p>Explicando o que ocorre neste arquivo (o que entendi) primeiramente herdamos o default, damos o titulo da pagina de blog, entre as tags &lt;ul&gt; e &lt;/ul&gt; criamos um for que verificará todos arquivos na pasta posts e entre as tags &lt;h2&gt; e &lt;/h2&gt; inserimos um link que pegará o arquivo na url e o seguinte pega o title do post. A  pega o primeiro paragrafo do conteudo do post (pelo que entendi). Também vamos colocar o link para o arquivo blog.html no arquivo de navegação do yml em _data/navigation.yml e ficará com dado abaixo.</p>
+
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">-</span> name: Home
+  link: /
+<span class="p">-</span> name: About
+  link: /about.html
+<span class="p">-</span> name: Blog
+  link: /blog.html
+</code></pre></div></div>
+
+<p>E então para verificar vamos criar mais post em nosso blog para verificar a navegação… Para não ter que traduzir os textos vou copiar e colar o texto do tutorial. E no nome do arquivo colocarei datas anteriores.</p>
+
+<p>Arquivo data 2020-09-24-macans.md</p>
+
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nn">---</span>
+<span class="na">layout</span><span class="pi">:</span> <span class="s">post</span>
+<span class="na">author</span><span class="pi">:</span> <span class="s">jill</span>
+<span class="nn">---</span>
+An apple is a sweet, edible fruit produced by an apple tree.
+
+Apple trees are cultivated worldwide, and are the most widely grown species in
+the genus Malus. The tree originated in Central Asia, where its wild ancestor,
+Malus sieversii, is still found today. Apples have been grown for thousands of
+years in Asia and Europe, and were brought to North America by European
+colonists.
+</code></pre></div></div>
+
+<p>Arquivo data <strong>2020-09-23-kiwi.md</strong></p>
+
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nn">---</span>
+<span class="na">layout</span><span class="pi">:</span> <span class="s">post</span>
+<span class="na">author</span><span class="pi">:</span> <span class="s">ted</span>
+<span class="nn">---</span>
+Kiwifruit (often abbreviated as kiwi), or Chinese gooseberry is the edible
+berry of several species of woody vines in the genus Actinidia.
+
+The most common cultivar group of kiwifruit is oval, about the size of a large
+hen's egg (5–8 cm (2.0–3.1 in) in length and 4.5–5.5 cm (1.8–2.2 in) in
+diameter). It has a fibrous, dull greenish-brown skin and bright green or
+golden flesh with rows of tiny, black, edible seeds. The fruit has a soft
+texture, with a sweet and unique flavor.
+</code></pre></div></div>
+
+<p>E pronto, vamos verificar nosso blog.</p>
+:ET

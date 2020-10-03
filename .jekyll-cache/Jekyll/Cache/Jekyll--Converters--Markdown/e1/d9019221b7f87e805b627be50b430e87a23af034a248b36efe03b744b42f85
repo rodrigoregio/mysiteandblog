@@ -1,0 +1,215 @@
+I"�/<h1 id="coleções">Coleções</h1>
+
+<p>Anteriormente criamos nossos posts e verificamos que temos autores em nossos posts então nesta seção criaremos uma coleção de autores e cada autor terá uma pagina com uma breve introdução a ele e seus posts. E para isto iremos utilizar coleções. Coleções são similares ao post exceto que o conteudo não deve ser agrupado por data.</p>
+
+<p>O conteudo desta página não é algo que quero fazer em meu blog, pois no blog só quem postará algo será eu mesmo, mas é importante saber, pois ninguém sabe o futuro e com certeza pode-se ter outras funcionalidades (ainda não imagino quais, mas deve ter).</p>
+
+<h3 id="configuração">Configuração</h3>
+
+<p>Para configurar uma coleção vamos criar o arquivo <strong>_config.yml</strong> na própria raiz do projeto (onde se encontra o primeiro arquivo index.html que criamos no inicio do tutorial. Codigo abaixo:</p>
+
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>collections:
+	authors:
+</code></pre></div></div>
+
+<p>E após isso reiniciaremos nosso servidor, para isto volte ao terminal (ou prompt, ou powershell se você estiver fazendo em um windows).</p>
+
+<h3 id="adicionando-autores">Adicionando autores</h3>
+
+<p>Vamos adicionar autores em nosso blog criando arquivos na pasta <strong>_authors</strong> ou seja, para adicionar itens em sua coleção criamos uma pasta  com o nome da coleção ficando assim <strong>_colecao/item_colecao.md</strong>. Então vamos criar os autores que já publicaram em nosso blog. Vou criar-me como um autor. Então meu arquivo vai ficar na pasta e com o nome: <strong>_authors/rodrigo.md</strong></p>
+
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nn">---</span>
+<span class="na">short_name</span><span class="pi">:</span> <span class="s">rodrigo</span>
+<span class="na">name</span><span class="pi">:</span> <span class="s">Rodrigo Régio</span>
+<span class="na">position</span><span class="pi">:</span> <span class="s">Editor Chefe</span>
+<span class="nn">---</span>
+
+Estou entrando na brincadeira e sou um ávido comedor de frutas brasileiras.
+</code></pre></div></div>
+
+<p>_authors/vanda.md</p>
+
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nn">---</span>
+<span class="na">short_name</span><span class="pi">:</span> <span class="s">Vanda</span>
+<span class="na">name</span><span class="pi">:</span> <span class="s">Vanda Maria Régio</span>
+<span class="na">position</span><span class="pi">:</span> <span class="s">Botanica Chefe de Jardins Residenciais</span>
+<span class="nn">---</span>
+
+Vanda é uma ótima botânica que entende tudo de plantas, quem planta e cuida das plantas é
+geralmente ela. Muito procurada por aspirantes a cuidadoras de plantas.
+</code></pre></div></div>
+
+<p>E _authors/francisco.md</p>
+
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nn">---</span>
+<span class="na">short_name</span><span class="pi">:</span> <span class="s">francisco</span>
+<span class="na">name</span><span class="pi">:</span> <span class="s">Francisco Régio</span>
+<span class="na">position</span><span class="pi">:</span> <span class="s">Estagiário</span>
+<span class="nn">---</span>
+
+Francisco Régio é apenas um estagiário que até entende algumas coisas de plantas, mas
+comete erros básicos ao cuidar de plantas comestiveis (como aguar as plantas com garrafa
+onde armazena xixi).
+</code></pre></div></div>
+
+<h3 id="página-de-participantes">Página de participantes</h3>
+
+<p>Vamos adicionar uma pagina que listará os autores do site. Jekyll faz a coleção ficar disponível com a variável <strong>site.authors</strong>.</p>
+
+<p>Vamos criar a página participantes.html e percorrer os <strong><a href="http://site.author">site.author</a></strong> para mostrar todos os participantes.</p>
+
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nn">---</span>
+<span class="na">layout</span><span class="pi">:</span> <span class="s">default</span>
+<span class="na">title</span><span class="pi">:</span> <span class="s">Participantes</span>
+<span class="nn">---</span>
+
+<span class="nt">&lt;h1&gt;</span>Participantes<span class="nt">&lt;/h1&gt;</span>
+
+<span class="nt">&lt;ul&gt;</span>
+	
+<span class="nt">&lt;/ul&gt;</span>
+</code></pre></div></div>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Uma vez que o conteúdo é markdown, você vai precisar mostrar na forma do mesmo, então vamos precisar deste pedaço de código “</td>
+      <td>markdownify }}”. Nesta seção também precisaremos colocar o link na barra de navegação, para isto modificamos o <strong>_data/navigation.yml</strong> e adicionar uma entrada para a página de particiantes.html (staff) ficando como o codigo abaixo:</td>
+    </tr>
+  </tbody>
+</table>
+
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">-</span> name: Home
+  link: /
+<span class="p">-</span> name: About
+  link: /about.html
+<span class="p">-</span> name: Blog
+  link: /blog.html
+<span class="p">-</span> name: Participantes
+  link: /participantes.html
+</code></pre></div></div>
+
+<h3 id="página-de-saida">Página de saida</h3>
+
+<p>Por padrão, coleções não possuem uma página de saída dos dados para documentos. Neste caso nós queremos que cada autor tenha sua própria página, então vamos fazer esta configuração.</p>
+
+<p>Para isto precisamos alterar o arquivo <strong>_config.yml</strong> como o código abaixo:</p>
+
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>collections:
+	authors:
+    output: true
+</code></pre></div></div>
+
+<p>Devemos reiniciar o Jekyll para que as alterações tenham efeito, apertando Ctrl+C para cancelar a execução do jekyll serve e executar novamente o <strong>jekyll serve</strong></p>
+
+<p>E agora podemos linkar o nome do autor na página de participantes, vamos fazer isto, colocaremos o código abaixo nos nomes dos autores, então a página participantes.html ficará como a abaixo:</p>
+
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nn">---</span>
+<span class="na">layout</span><span class="pi">:</span> <span class="s">default</span>
+<span class="na">title</span><span class="pi">:</span> <span class="s">Participantes</span>
+<span class="nn">---</span>
+
+<span class="nt">&lt;h1&gt;</span>Participantes<span class="nt">&lt;/h1&gt;</span>
+
+<span class="nt">&lt;ul&gt;</span>
+	
+<span class="nt">&lt;/ul&gt;</span>
+</code></pre></div></div>
+
+<p>Feito a alteração anterior se clicarmos no link do autor veremos que na página constará somente a descrição do autor, então para que todas as informações saiam na página, vamos criar um arquivo na pasta _layout com o nome author.html então ficará <strong>_layout/author.html</strong> com o código abaixo:</p>
+
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nn">---</span>
+<span class="na">layout</span><span class="pi">:</span> <span class="s">default</span>
+<span class="nn">---</span>
+
+<span class="nt">&lt;h1&gt;&lt;/h1&gt;</span>
+<span class="nt">&lt;h2&gt;&lt;/h2&gt;</span><span class="sb">
+
+
+</span></code></pre></div></div>
+
+<p>Feito somente isto ainda não funciona. Agora precisamos configurar os documentos do author para usar o layout do author, então vamos alterar qual arquivo? isso mesmo, o _config.yml. Geralmente fazíamos isso no front matter diretamente no arquivo, como prova volte no codigo acima e verá algo como:</p>
+
+<hr />
+<p>layout: default
+—
+Agora vamos fazer isto diretamente no arquivo de configurações <strong>_config.yml</strong>, alterando-o como o código abaixo:</p>
+
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>collections:
+  authors:
+    output: true
+
+defaults:
+<span class="p">  -</span> scope:
+      path: ""
+      type: "authors"
+    values:
+      layout: "author"
+<span class="p">  -</span> scope:
+      path: ""
+      type: "posts"
+    values: 
+      layout: "post"
+<span class="p">  -</span> scope:
+      path: ""
+    values:
+      layout: "default"
+</code></pre></div></div>
+
+<p>E como sempre que mexemos no arquivo de configuração devemos reiniciar o servidor, (explicado anteriormente). Feito isso já está funcionando nosso link.</p>
+
+<p>Porém vamos colocar os posts feitos por cada autor. Então vamos na página de layout  dos autores <strong>(_layout/author.html)</strong> e colocar um laço para iterar os posts do autor, ficando assim:</p>
+
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nn">---</span>
+<span class="na">layout</span><span class="pi">:</span> <span class="s">default</span>
+<span class="nn">---</span>
+
+<span class="nt">&lt;h1&gt;&lt;/h1&gt;</span>
+<span class="nt">&lt;h2&gt;&lt;/h2&gt;</span><span class="sb">
+
+
+
+</span><span class="c">&lt;!-- Colocamos o codigo abaixo --&gt;</span>
+<span class="nt">&lt;h2&gt;</span>Posts<span class="nt">&lt;/h2&gt;</span>
+<span class="nt">&lt;ul&gt;</span>
+	
+	
+	  <span class="nt">&lt;li&gt;</span> <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"/2020/09/25/IniciandocomJekyll.html"</span><span class="nt">&gt;</span>Iniciandocomjekyll<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+	
+	  <span class="nt">&lt;li&gt;</span> <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"/2020/09/25/Fazendo_e_servindo_primeira_pagina.html"</span><span class="nt">&gt;</span>Fazendo_e_servindo_primeira_pagina<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+	
+	  <span class="nt">&lt;li&gt;</span> <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"/2020/09/25/Deploy.html"</span><span class="nt">&gt;</span>Deploy<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+	
+	  <span class="nt">&lt;li&gt;</span> <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"/2020/09/25/Consideracoes_finais.html"</span><span class="nt">&gt;</span>Consideracoes_finais<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+	
+	  <span class="nt">&lt;li&gt;</span> <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"/2020/09/25/Colecoes.html"</span><span class="nt">&gt;</span>Colecoes<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+	
+	  <span class="nt">&lt;li&gt;</span> <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"/2020/09/25/Blogging.html"</span><span class="nt">&gt;</span>Blogging<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+	
+	  <span class="nt">&lt;li&gt;</span> <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"/2020/09/25/Assets.html"</span><span class="nt">&gt;</span>Assets<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+	
+	  <span class="nt">&lt;li&gt;</span> <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"/2020/09/25/Arquivos_de_dados.html"</span><span class="nt">&gt;</span>Arquivos_de_dados<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+	
+<span class="nt">&lt;/ul&gt;</span>
+</code></pre></div></div>
+
+<p>Funcionando isto, vamos agora criar um link no nome do autor na página do post, para isto vamos editar o _layout/post.html</p>
+
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nn">---</span>
+<span class="na">layout</span><span class="pi">:</span> <span class="s">default</span>
+<span class="nn">---</span>
+<span class="nt">&lt;h1&gt;</span>Colecoes<span class="nt">&lt;/h1&gt;</span>
+
+<span class="nt">&lt;p&gt;</span>
+  25 Sep 2020
+  
+  
+<span class="nt">&lt;/p&gt;</span><span class="sb">
+
+
+</span></code></pre></div></div>
+
+<p>Feito isto até criei um novo post para verificar se outro post apareceria e funcionaram perfeitamente.</p>
+
+<p>Feito isto quase terminando o tutorial. O proximo passo iremos ver deploy (enviar para produção), plugins, variáveis de ambiente.</p>
+:ET

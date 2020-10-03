@@ -1,0 +1,54 @@
+I"	<h1 id="arquivos-de-dados">Arquivos de dados</h1>
+
+<p>Como já foi dito anteriormente, o Jekyll não suporta acesso a banco de dados, mas suporta arquivos de dados. Nele podemos colocar arquivos YAML, JSON e CSV. Os arquivos devem estar localizados no diretório _data. Segundo o tutorial arquivos de dados são bons para separar o conteudo do código fonte, facilitando assim a manutenção.</p>
+
+<p>Neste passo iremos colocar os dados da página de navegação (criada anteriormente) em um arquivi YAML. Então crie um arquivo chamado <strong>_data/navigation.yml</strong> com o conteudo abaixo:</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code>- name: Home
+	link: /
+- name: About
+	link: /about.html
+</code></pre></div></div>
+
+<p>Assim com esses dados o Jekyll lhe criará uma “variavel” onde estes dados estarão disponivei como “site.data.navigation”. Então devemos alterar somente a página de navegação e colocar o codigo da seguinte maneira:</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;nav&gt;</span>
+	
+<span class="nt">&lt;/nav&gt;</span>
+</code></pre></div></div>
+
+<p>E as instruções acima funcionaram perfeitamente, e como todo aluno deveria fazer, fiz um arquivo JSON e tentei iterar sobre ele e funciona da mesma forma, segue codigo que fiz:</p>
+
+<h3 id="arquivo-aboutmd">Arquivo about.md</h3>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code>---
+layout: default
+title: About
+---
+
+# Pagina sobre
+
+Esta página vai lhe contar um pouco sobre mim.
+
+</code></pre></div></div>
+
+<h3 id="arquivo-_datamotivosjson">arquivo _data/motivos.json</h3>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[
+	{
+		"indice": 1,
+		"motivo": "Estou querendo aprender Jekyll"
+	},
+	{
+		"indice": 2,
+		"motivo": "Estou querendo construir um blog"
+	},
+	{
+		"indice": 3,
+		"motivo": "Por isso estou aprendendo Jekyll"
+	}
+]
+</code></pre></div></div>
+
+<p>E o meu codigo da pagina <a href="http://about.md">about.md</a> funcionou perfeitamente. E nos próximos passos iremos verificar data assets no site. Assets são arquivos a serem carregados no site, como imagens, videos, css, js etc.</p>
+:ET

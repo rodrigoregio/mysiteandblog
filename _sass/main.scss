@@ -19,13 +19,14 @@ h1{
     font-weight: 300;
     font-size: 2.5em;
     letter-spacing: -5px;
+    line-height: 40px;
 }
 .header > h1{
     font-family: 'Roboto Mono', sans-serif;
     font-weight: 300;
-    font-size: 3rem;
+    font-size: 4rem;
     letter-spacing: -7.5px;
-    line-height: 50px;
+    line-height: 60px;
 }
 p{
     font-family: 'Roboto Mono', sans-serif;
@@ -103,6 +104,11 @@ p{
 .link2:hover{
     background-color: #003300;
     color: #eaeaea;
+}
+#poste{
+    background-color: #eaffea;
+    color: #003300;
+    text-align: left;
 }
 @media(max-width: 500px){
     #projetos{
