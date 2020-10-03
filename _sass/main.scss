@@ -107,6 +107,7 @@ p{
 }
 #blog{
     background-color: #eaffea;
+    margin-top: 10px;
 }
 #blog > ul{
     list-style: none;
@@ -125,8 +126,7 @@ h2{
     line-height: 5px;
 }
 .grid-container{
-    display: inline-grid;
-    grid-column-gap: 10px;
+    display: grid;
 }
 #sitetags{
     background-color: #eaffea;
@@ -145,8 +145,15 @@ h2{
         white-space: pre-line;
     }
 }
-@media(min-widgth: 1500px){
-    section{
-        width: 50%;
+@media(min-width: 700px){
+    .grid-container{
+        grid-template-columns: 20% 80%;
     }
+    #blog{
+        margin-top: 0px;
+        margin-left: 5px;
+    }
+}
+@media(min-width: 1500px){
+
 }

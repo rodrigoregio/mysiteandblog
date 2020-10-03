@@ -1,4 +1,4 @@
-I"�<p>Olá Mundo, Google e pessoal. Este é para ser o primeiro post de meu blog que estou criando, onde nele explicarei o porque, pra que e como estou criando isto. Primeiramente o porque?</p>
+I"K<p>Olá Mundo, Google e pessoal. Este é para ser o primeiro post de meu blog que estou criando<!--more-->, onde nele explicarei o porque, pra que e como estou criando isto. Primeiramente o porque?</p>
 
 <p>Estou criando este blog porque recentemente estou ouvindo muitos canais de programadores dizendo que é importante saber como escrever algo onde você documenta toda a sua experiência sobre uma determinada tecnologia pois isto te ajuda a organizar o processamento do que se está falando. E com certa razão quem consegue explicar algo em um texto consegue explicar isto também em audio, video ou qualquer outra forma.</p>
 
@@ -12,4 +12,25 @@
 
 <p><a href="https://www.notion.so/Iniciando-com-Jekyll-48f0e5aefc2e4d309b208f64c3529bdd">Post notion</a></p>
 
+<div id="disqus_thread"></div>
+<script>
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://rregio-top.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 :ET
