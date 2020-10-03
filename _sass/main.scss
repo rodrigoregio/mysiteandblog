@@ -105,9 +105,31 @@ p{
     background-color: #003300;
     color: #eaeaea;
 }
+#blog{
+    background-color: #eaffea;
+}
+#blog > ul{
+    list-style: none;
+}
+#blog > h1{
+    line-height: 60px;
+}
 #poste{
     background-color: #eaffea;
     color: #003300;
+    text-align: left;
+    padding: 10px;
+}
+h2{
+    font-family: 'Roboto Mono', sans-serif;
+    line-height: 5px;
+}
+.grid-container{
+    display: inline-grid;
+    grid-column-gap: 10px;
+}
+#sitetags{
+    background-color: #eaffea;
     text-align: left;
 }
 @media(max-width: 500px){

@@ -40,10 +40,20 @@ p { font-family: 'Roboto Mono', sans-serif; font-weight: normal; font-size: 1rem
 
 .link2:hover { background-color: #003300; color: #eaeaea; }
 
-#poste { background-color: #eaffea; color: #003300; text-align: left; }
+#blog { background-color: #eaffea; }
+
+#blog > ul { list-style: none; }
+
+#blog > h1 { line-height: 60px; }
+
+#poste { background-color: #eaffea; color: #003300; text-align: left; padding: 10px; }
+
+h2 { font-family: 'Roboto Mono', sans-serif; line-height: 5px; }
+
+.grid-container { display: inline-grid; grid-column-gap: 10px; }
+
+#sitetags { background-color: #eaffea; text-align: left; }
 
 @media (max-width: 500px) { #projetos { padding-bottom: 0px; } .navbar { position: fixed; width: 100%; } .rodape { position: inherit; white-space: pre-line; } }
 
 @media (min-widgth: 1500px) { section { width: 50%; } }
-
-/*# sourceMappingURL=style.css.map */

@@ -1,40 +1,4 @@
-<!DOCTYPE html>
-<html lang="pt">
-    <head>
-        <meta charset="utf-8">
-        <title>Iniciando com Jekyll</title>
-        <link rel="stylesheet" href="/assets/css/style.css">
-        <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;400;700&display=swap" rel="stylesheet">
-        <link rel="shortcut icon" type="image/x-icon" href="/assets/images/favicon.ico">
-    </head>
-    <body>
-        <nav class="navbar">
-    <ul>
-        
-            <li style="list-style-type: none;font-size: 1.5rem;">
-                <a href="/index.html" class="link">Home</a>
-            </li>
-        
-            <li style="list-style-type: none;font-size: 1.5rem;">
-                <a href="/index.html#sobre" class="link">Sobre</a>
-            </li>
-        
-            <li style="list-style-type: none;font-size: 1.5rem;">
-                <a href="/index.html#projetos" class="link">Projetos</a>
-            </li>
-        
-            <li style="list-style-type: none;font-size: 1.5rem;">
-                <a href="/blog.html" class="link">Blog</a>
-            </li>
-        
-    </ul>
-</nav>
-        <section id="poste">
-    <br/>
-    <h1>Iniciando com Jekyll</h1>
-    <p>25 Sep 2020 - por Rodrigo Régio</p>
-
-    <p>Olá Mundo, Google e pessoal. Este é para ser o primeiro post de meu blog que estou criando<!--more-->, onde nele explicarei o porque, pra que e como estou criando isto. Primeiramente o porque?</p>
+I"�<p>Olá Mundo, Google e pessoal. Este é para ser o primeiro post de meu blog que estou criando<!--more-->, onde nele explicarei o porque, pra que e como estou criando isto. Primeiramente o porque?</p>
 
 <p>Estou criando este blog porque recentemente estou ouvindo muitos canais de programadores dizendo que é importante saber como escrever algo onde você documenta toda a sua experiência sobre uma determinada tecnologia pois isto te ajuda a organizar o processamento do que se está falando. E com certa razão quem consegue explicar algo em um texto consegue explicar isto também em audio, video ou qualquer outra forma.</p>
 
@@ -48,10 +12,4 @@
 
 <p><a href="https://www.notion.so/Iniciando-com-Jekyll-48f0e5aefc2e4d309b208f64c3529bdd">Post notion</a></p>
 
-<br/>
-</section>
-        <div class="rodape">
-    <p>Todos os direitos reservados a Rodrigo Régio de Araújo</p>
-</div>
-    </body>
-</html>
+:ET
