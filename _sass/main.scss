@@ -1,160 +1,116 @@
 body{
+    background-color: #060;
     text-align: center;
-    min-width: 380px;
-    background-color: #003300;
+    min-width: 360px;
 }
-.header{
-    background-color: #eaffea;
-    display: flex;
-    height: auto;
-    flex-direction: column;
-    justify-content: center;
+.menuLista{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #060;
+    
 }
-.header > img{
-    align-self: center;
-    padding: 45px 0px 0px 0px;
+.menuItem {
+    float: left;
+} 
+.menuItem a {
+    display: block;
+    color: #7f7;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
 }
-h1{
-    font-family: 'Roboto Mono', sans-serif;
-    font-weight: 300;
-    font-size: 2.5em;
-    letter-spacing: -5px;
-    line-height: 40px;
+.menuItem a:hover {
+    background-color: #5f5;
+    color: #353;
 }
-.header > h1{
-    font-family: 'Roboto Mono', sans-serif;
-    font-weight: 300;
-    font-size: 4rem;
-    letter-spacing: -7.5px;
-    line-height: 60px;
-}
-p{
-    font-family: 'Roboto Mono', sans-serif;
-    font-weight: normal;
-    font-size: 1.5em;
-}
-.navbar{
+.menu{
     position: fixed;
-    background-color: #003300;
-    align-content: center;
-    top: 0px;
-    right: 0px;
-    font-size: 1.5em;
-}
-.navbar > ul{
-    display: flex;
-    margin: 10px;
-}
-.navbar > li{
-    /*display: block;*/
-    list-style: none;
-}
-.link{
-    background-color: #003300;
-    color: #eaffea;
-    padding: 10px;
-}
-.link:visited{
-    background-color: #003300;
-    color: #eaffea;
-}
-.link:hover{
-    background-color: #eaeaea;
-    color: #003300;
+    width: 100%;
+    top: 0;
+    left: 0;
+    font-size: 1.25em;
 }
 .rodape{
-    position: fixed;
-    background-color: #003300;
-    color: #eaffea;
-    bottom: 0px;
-    right: 0px;
-}
-.rodape > p{
-    font-family: 'Roboto Mono', sans-serif;
-    font-size: 1.5em;
-    font-weight: 300;
-}
-#projetos > p {
-    list-style: none;
-    text-align: left;
-    padding: 10px;
-}
-#projetos{
     width: 100%;
-    height: auto;
-    background-color: #daffda;
-    padding-bottom: 16px;
+    bottom: 0;
+    left: 0;   
+    font-size: 1.25em;
+    background-color: #060;
+    color: #AfA;
+}
+#home{
+    padding-top:40px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+    background-color: #5f5;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.5em;
+}
+#home > img{
+    width: 150px;
+}
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 900;
+}
+p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
 }
 #sobre{
-    width: 100%;
-    height: auto;
-    background-color: #caffca;
-}
-#sobre > p{
+    background-color: #9f9;
     text-align: left;
-    padding: 0px 10px 10px 10px;
+    font-size: 1.5em;
 }
-
-.link2{
-    padding: 10px 10px 10px 10px;
-    font-size: 1.5rem;
+#sobre p{
+    text-align: justify;
 }
-.link2:visited{
-    font-size: 1.5rem;
+a:hover{
+    background-color: #060;
+    color: #8f8;
 }
-.link2:hover{
-    background-color: #003300;
-    color: #eaeaea;
+a:link{
+    text-decoration: none;
+}
+#projetos{
+    background-color: #AfA;
+    font-size: 1.5em;
 }
 #blog{
-    background-color: #eaffea;
-    margin-top: 10px;
+    background-color: #AfA;
+    font-size: 1.5em;
 }
-#blog > ul{
+#blog ul{
     list-style: none;
-}
-#blog > h1{
-    line-height: 60px;
-}
-#poste{
-    background-color: #eaffea;
-    color: #003300;
-    text-align: left;
+    line-height: 1px;
     padding: 10px;
 }
-h2{
-    font-family: 'Roboto Mono', sans-serif;
-    line-height: 5px;
+#blog h1{
+    padding-top: 10px;
 }
 #sitetags{
-    background-color: #eaffea;
+    background-color: #9f9;
+    font-size: 1.5em;
+}
+#sitetags li{
+    list-style: none;
+    line-height: 10px;
+    padding: 10px;
+}
+#sitetags p{
+    list-style: none;
+    line-height: 10px;
+    padding: 10px;
+}
+#poste{
+    background-color: #AfA;
+    font-size: 1.5em;
     text-align: left;
 }
 .highlight{
-    background-color: #003300;
-    color: #caffca;
-    font-size: 1.5em;
     white-space: pre-wrap;
-}
-@media(max-width: 500px){
-    #projetos{
-        padding-bottom: 0px;
-    }
-    .navbar {
-        position: fixed;
-        width: 100%;
-    }
-    .rodape {
-        position: inherit;
-        white-space: pre-line;
-    }
-}
-@media(min-width: 700px){
-    #blog{
-        margin-top: 0px;
-        margin-left: 5px;
-    }
-}
-@media(min-width: 1500px){
-
+    font-size: 1em;
 }

@@ -1,61 +1,49 @@
-body { text-align: center; min-width: 380px; background-color: #003300; }
+body { background-color: #060; text-align: center; min-width: 360px; }
 
-.header { background-color: #eaffea; display: flex; height: auto; flex-direction: column; justify-content: center; }
+.menuLista { list-style-type: none; margin: 0; padding: 0; overflow: hidden; background-color: #060; }
 
-.header > img { align-self: center; padding: 45px 0px 0px 0px; }
+.menuItem { float: left; }
 
-h1 { font-family: 'Roboto Mono', sans-serif; font-weight: 300; font-size: 2.5em; letter-spacing: -5px; line-height: 40px; }
+.menuItem a { display: block; color: #7f7; text-align: center; padding: 10px 10px; text-decoration: none; }
 
-.header > h1 { font-family: 'Roboto Mono', sans-serif; font-weight: 300; font-size: 4rem; letter-spacing: -7.5px; line-height: 60px; }
+.menuItem a:hover { background-color: #5f5; color: #353; }
 
-p { font-family: 'Roboto Mono', sans-serif; font-weight: normal; font-size: 1.5em; }
+.menu { position: fixed; width: 100%; top: 0; left: 0; font-size: 1.25em; }
 
-.navbar { position: fixed; background-color: #003300; align-content: center; top: 0px; right: 0px; font-size: 1.5em; }
+.rodape { width: 100%; bottom: 0; left: 0; font-size: 1.25em; background-color: #060; color: #AfA; }
 
-.navbar > ul { display: flex; margin: 10px; }
+#home { padding-top: 40px; padding-left: 15px; padding-bottom: 15px; padding-right: 15px; background-color: #5f5; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-size: 1.5em; }
 
-.navbar > li { /*display: block;*/ list-style: none; }
+#home > img { width: 150px; }
 
-.link { background-color: #003300; color: #eaffea; padding: 10px; }
+h1 { font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-weight: 900; }
 
-.link:visited { background-color: #003300; color: #eaffea; }
+p { font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-weight: 100; }
 
-.link:hover { background-color: #eaeaea; color: #003300; }
+#sobre { background-color: #9f9; text-align: left; font-size: 1.5em; }
 
-.rodape { position: fixed; background-color: #003300; color: #eaffea; bottom: 0px; right: 0px; }
+#sobre p { text-align: justify; }
 
-.rodape > p { font-family: 'Roboto Mono', sans-serif; font-size: 1.5em; font-weight: 300; }
+a:hover { background-color: #060; color: #8f8; }
 
-#projetos > p { list-style: none; text-align: left; padding: 10px; }
+a:link { text-decoration: none; }
 
-#projetos { width: 100%; height: auto; background-color: #daffda; padding-bottom: 16px; }
+#projetos { background-color: #AfA; font-size: 1.5em; }
 
-#sobre { width: 100%; height: auto; background-color: #caffca; }
+#blog { background-color: #AfA; font-size: 1.5em; }
 
-#sobre > p { text-align: left; padding: 0px 10px 10px 10px; }
+#blog ul { list-style: none; line-height: 1px; padding: 10px; }
 
-.link2 { padding: 10px 10px 10px 10px; font-size: 1.5rem; }
+#blog h1 { padding-top: 10px; }
 
-.link2:visited { font-size: 1.5rem; }
+#sitetags { background-color: #9f9; font-size: 1.5em; }
 
-.link2:hover { background-color: #003300; color: #eaeaea; }
+#sitetags li { list-style: none; line-height: 10px; padding: 10px; }
 
-#blog { background-color: #eaffea; margin-top: 10px; }
+#sitetags p { list-style: none; line-height: 10px; padding: 10px; }
 
-#blog > ul { list-style: none; }
+#poste { background-color: #AfA; font-size: 1.5em; text-align: left; }
 
-#blog > h1 { line-height: 60px; }
-
-#poste { background-color: #eaffea; color: #003300; text-align: left; padding: 10px; }
-
-h2 { font-family: 'Roboto Mono', sans-serif; line-height: 5px; }
-
-#sitetags { background-color: #eaffea; text-align: left; }
-
-.highlight { background-color: #003300; color: #caffca; font-size: 1.5em; white-space: pre-wrap; }
-
-@media (max-width: 500px) { #projetos { padding-bottom: 0px; } .navbar { position: fixed; width: 100%; } .rodape { position: inherit; white-space: pre-line; } }
-
-@media (min-width: 700px) { #blog { margin-top: 0px; margin-left: 5px; } }
+.highlight { white-space: pre-wrap; font-size: 1em; }
 
 /*# sourceMappingURL=style.css.map */

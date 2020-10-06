@@ -10,15 +10,19 @@ O curso abordou sobre AsyncTask que pelo que entendi do curso, o **AsyncTask** e
 Para acessar API's primeiramente devemos adicionar permissão para HttpUrlConnection no AndroidManifest.
 
 ```xml
-<uses-permission android:name="android.permission.INTENET"/>
+<uses-permission android:name=
+"android.permission.INTENET"/>
 ```
 
 O aplicativo pega nomes digitados (separados por virgula) em um TextView e também há um botão (ao digitar os nomes o usuario clica no botão). Ao clicar no botão é chamado a função verificaNomes, ela pega os nomes digitados pelo usuário e quebra (split) separando por virgula, exemplo, "Rodrigo,José" se tornará um array de Strings que nomeei nomesList e terá os valores ["Rodrigo", "José"]. Se a nomesList tiver um nome somente ele acessará a url `"https://api.genderize.io?name="+nomesList[0]`, e se tiver mais de um nome acessará com um for que ficará da seguinte forma:
     
 ```java
-stringBuilder = new StringBuilder("https://api.genderize.io/?&");
+stringBuilder = new
+	StringBuilder("https://"+
+	+"api.genderize.io/?&");
 for (String nome : nomesList) {
-	stringBuilder.append("&name="+nome);
+	stringBuilder.append(
+		"&name="+nome);
 }
 ```
 
