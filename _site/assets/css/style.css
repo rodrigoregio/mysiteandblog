@@ -18,7 +18,7 @@ body { background-color: #060; text-align: center; min-width: 360px; }
 
 h1 { font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-weight: 900; }
 
-p { font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-weight: 100; }
+p { font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-weight: 400; }
 
 #sobre { background-color: #9f9; text-align: left; font-size: 1.5em; vertical-align: middle; display: table-cell; text-align: center; }
 
