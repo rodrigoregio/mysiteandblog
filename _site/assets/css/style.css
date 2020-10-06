@@ -8,7 +8,7 @@ h1 { font-family: 'Roboto Mono', sans-serif; font-weight: 300; font-size: 2.5em;
 
 .header > h1 { font-family: 'Roboto Mono', sans-serif; font-weight: 300; font-size: 4rem; letter-spacing: -7.5px; line-height: 60px; }
 
-p { font-family: 'Roboto Mono', sans-serif; font-weight: normal; font-size: 1rem; }
+p { font-family: 'Roboto Mono', sans-serif; font-weight: normal; font-size: 1.5em; }
 
 .navbar { position: fixed; background-color: #003300; align-content: center; top: 0px; right: 0px; }
 
@@ -24,7 +24,7 @@ p { font-family: 'Roboto Mono', sans-serif; font-weight: normal; font-size: 1rem
 
 .rodape { position: fixed; background-color: #003300; color: #eaffea; bottom: 0px; right: 0px; }
 
-.rodape > p { font-family: 'Roboto Mono', sans-serif; font-size: 0.75rem; font-weight: 300; }
+.rodape > p { font-family: 'Roboto Mono', sans-serif; font-size: 1.5em; font-weight: 300; }
 
 #projetos > p { list-style: none; text-align: left; padding: 10px; }
 
@@ -57,3 +57,5 @@ h2 { font-family: 'Roboto Mono', sans-serif; line-height: 5px; }
 @media (max-width: 500px) { #projetos { padding-bottom: 0px; } .navbar { position: fixed; width: 100%; } .rodape { position: inherit; white-space: pre-line; } }
 
 @media (min-width: 700px) { #blog { margin-top: 0px; margin-left: 5px; } }
+
+/*# sourceMappingURL=style.css.map */
