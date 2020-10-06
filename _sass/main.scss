@@ -41,16 +41,17 @@ body{
     color: #AfA;
 }
 #home{
-    padding-top:40px;
     padding-left: 15px;
     padding-bottom: 15px;
     padding-right: 15px;
     background-color: #5f5;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 1.5em;
+    height: 100vh;
 }
 #home > img{
     width: 150px;
+    padding: 45px;
 }
 h1{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -64,7 +65,12 @@ p{
     background-color: #9f9;
     text-align: left;
     font-size: 1.5em;
+    height: 100vh;
+    vertical-align: middle;
+    display: table-cell;
+    text-align: center;
 }
+
 #sobre p{
     text-align: justify;
 }
@@ -78,14 +84,19 @@ a:link{
 #projetos{
     background-color: #AfA;
     font-size: 1.5em;
+    height: 100vh;
 }
 #blog{
+    padding: 30px;
     background-color: #AfA;
     font-size: 1.5em;
 }
+#blog p{
+    line-height: 20px;
+}
 #blog ul{
     list-style: none;
-    line-height: 1px;
+    line-height: 30px;
     padding: 10px;
 }
 #blog h1{

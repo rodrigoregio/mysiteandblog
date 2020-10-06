@@ -1,11 +1,11 @@
 ---
 layout: post
 title: AsyncTask e Android
-excerpt_separator: <!--more-->
+excerpt_separator: ...<!--more-->
 tags: Android
 comments: true
 ---
-O curso abordou sobre AsyncTask que pelo que entendi do curso, o **AsyncTask** executa <!--more--> procedimentos assincronos, ou seja, que rodam em background. Para processamentos assincronos não podemos executar na thread da UI (User Interface), então criamos esse AsyncTask que cria uma Thread que espera o resultado do acesso. Para testar meus entendimentos Criei um aplicativo que usa a api [Genderize.IO](https://genderize.io) (ela responde se um ou mais nomes são do sexo masculino ou feminino). Neste post não colocarei muito código, para ver o código acesse o projeto no github [Projeto](https://github.com/rodrigoregio/NameAPIs).
+O curso abordou sobre AsyncTask que pelo que entendi do curso, o **AsyncTask** executa...<!--more--> procedimentos assincronos, ou seja, que rodam em background. Para processamentos assincronos não podemos executar na thread da UI (User Interface), então criamos esse AsyncTask que cria uma Thread que espera o resultado do acesso. Para testar meus entendimentos Criei um aplicativo que usa a api [Genderize.IO](https://genderize.io) (ela responde se um ou mais nomes são do sexo masculino ou feminino). Neste post não colocarei muito código, para ver o código acesse o projeto no github [Projeto](https://github.com/rodrigoregio/NameAPIs).
 
 Para acessar API's primeiramente devemos adicionar permissão para HttpUrlConnection no AndroidManifest.
 

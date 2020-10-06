@@ -6,7 +6,7 @@ tags: web jekyll
 comments: true
 ---
 
-Olá Mundo, Google e pessoal. Este é para ser o primeiro post de meu blog que estou criando<!--more-->, onde nele explicarei o porque, pra que e como estou criando isto. Primeiramente o porque?
+Olá Mundo, Google e pessoal. Este é para ser o primeiro post de meu blog que estou criando...<!--more-->, onde nele explicarei o porque, pra que e como estou criando isto. Primeiramente o porque?
 
 Estou criando este blog porque recentemente estou ouvindo muitos canais de programadores dizendo que é importante saber como escrever algo onde você documenta toda a sua experiência sobre uma determinada tecnologia pois isto te ajuda a organizar o processamento do que se está falando. E com certa razão quem consegue explicar algo em um texto consegue explicar isto também em audio, video ou qualquer outra forma.
 
