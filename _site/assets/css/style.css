@@ -52,7 +52,7 @@ h2 { font-family: 'Roboto Mono', sans-serif; line-height: 5px; }
 
 #sitetags { background-color: #eaffea; text-align: left; }
 
-.highlight { background-color: #003300; color: #caffca; }
+.highlight { background-color: #003300; color: #caffca; font-size: 1.2em; }
 
 @media (max-width: 500px) { #projetos { padding-bottom: 0px; } .navbar { position: fixed; width: 100%; } .rodape { position: inherit; white-space: pre-line; } }
 
