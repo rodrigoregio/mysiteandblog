@@ -50,12 +50,12 @@ p { font-family: 'Roboto Mono', sans-serif; font-weight: normal; font-size: 1rem
 
 h2 { font-family: 'Roboto Mono', sans-serif; line-height: 5px; }
 
-.grid-container { display: grid; }
-
 #sitetags { background-color: #eaffea; text-align: left; }
+
+.highlight { background-color: #003300; color: #caffca; }
 
 @media (max-width: 500px) { #projetos { padding-bottom: 0px; } .navbar { position: fixed; width: 100%; } .rodape { position: inherit; white-space: pre-line; } }
 
-@media (min-width: 700px) { .grid-container { grid-template-columns: 20% 80%; } #blog { margin-top: 0px; margin-left: 5px; } }
+@media (min-width: 700px) { #blog { margin-top: 0px; margin-left: 5px; } }
 
 /*# sourceMappingURL=style.css.map */

@@ -125,12 +125,13 @@ h2{
     font-family: 'Roboto Mono', sans-serif;
     line-height: 5px;
 }
-.grid-container{
-    display: grid;
-}
 #sitetags{
     background-color: #eaffea;
     text-align: left;
+}
+.highlight{
+    background-color: #003300;
+    color: #caffca;
 }
 @media(max-width: 500px){
     #projetos{
@@ -146,9 +147,6 @@ h2{
     }
 }
 @media(min-width: 700px){
-    .grid-container{
-        grid-template-columns: 20% 80%;
-    }
     #blog{
         margin-top: 0px;
         margin-left: 5px;

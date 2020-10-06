@@ -2,27 +2,26 @@
 layout: default
 title: blog
 ---
-<div class="grid-container">
-    <section id="sitetags" class="grid-item">
-        <h1>Tags:</h1>
-        {% for tag in site.tags %}
-        <p>{{ tag[0] }}</p>
-        <ul>
-            {% for post in tag[1] %}
-                <li style="list-style: none;"><a href="{{ post.url }}">{{ post.title }}</a></li>
-            {% endfor %}
-        </ul>
+
+<section id="blog" class="grid-item">
+    <h1>Ultimos posts</h1>
+    <ul>
+        {% for post in site.posts %}
+        <li>
+            <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+            {{ post.excerpt }}
+        </li>
         {% endfor %}
-    </section>
-    <section id="blog" class="grid-item">
-        <h1>Ultimos posts</h1>
-        <ul>
-            {% for post in site.posts %}
-            <li>
-                <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-                {{ post.excerpt }}
-            </li>
-            {% endfor %}
-        </ul>
-    </section>
-</div>
+    </ul>
+</section>
+<section id="sitetags" class="grid-item">
+    <h1>Tags:</h1>
+    {% for tag in site.tags %}
+    <p>{{ tag[0] }}</p>
+    <ul>
+        {% for post in tag[1] %}
+            <li style="list-style: none;"><a href="{{ post.url }}">{{ post.title }}</a></li>
+        {% endfor %}
+    </ul>
+    {% endfor %}
+</section>
