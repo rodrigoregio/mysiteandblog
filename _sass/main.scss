@@ -39,6 +39,7 @@ p{
     align-content: center;
     top: 0px;
     right: 0px;
+    font-size: 1.5em;
 }
 .navbar > ul{
     display: flex;
@@ -133,6 +134,7 @@ h2{
     background-color: #003300;
     color: #caffca;
     font-size: 1.5em;
+    white-space: pre-wrap;
 }
 @media(max-width: 500px){
     #projetos{
