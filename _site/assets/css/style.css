@@ -12,7 +12,7 @@ body { background-color: #060; text-align: center; min-width: 360px; }
 
 .rodape { width: 100%; bottom: 0; left: 0; font-size: 1.25em; background-color: #060; color: #AfA; }
 
-#home { padding-left: 15px; padding-bottom: 15px; padding-right: 15px; background-color: #5f5; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-size: 1.5em; height: 100vh; }
+#home { padding-left: 15px; padding-bottom: 15px; padding-right: 15px; background-color: #5f5; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-size: 1.5em; }
 
 #home > img { width: 150px; padding: 45px; }
 
@@ -20,7 +20,7 @@ h1 { font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; f
 
 p { font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-weight: 100; }
 
-#sobre { background-color: #9f9; text-align: left; font-size: 1.5em; height: 100vh; vertical-align: middle; display: table-cell; text-align: center; }
+#sobre { background-color: #9f9; text-align: left; font-size: 1.5em; vertical-align: middle; display: table-cell; text-align: center; }
 
 #sobre p { text-align: justify; }
 
@@ -28,7 +28,7 @@ a:hover { background-color: #060; color: #8f8; }
 
 a:link { text-decoration: none; }
 
-#projetos { background-color: #AfA; font-size: 1.5em; height: 100vh; }
+#projetos { background-color: #AfA; font-size: 1.5em; }
 
 #blog { padding: 30px; background-color: #AfA; font-size: 1.5em; }
 
