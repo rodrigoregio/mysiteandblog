@@ -14,7 +14,7 @@ body { background-color: #060; text-align: center; min-width: 360px; }
 
 #home { padding-left: 15px; padding-bottom: 15px; padding-right: 15px; background-color: #5f5; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-size: 1.5em; }
 
-#home > img { width: 150px; padding: 55px; }
+#home > img { width: 150px; padding: 100px; }
 
 h1 { font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-weight: 900; padding: 20px; }
 
