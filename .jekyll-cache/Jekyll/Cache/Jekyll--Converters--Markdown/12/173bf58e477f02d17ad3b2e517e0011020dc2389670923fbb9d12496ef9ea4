@@ -1,40 +1,4 @@
-<!DOCTYPE html>
-<html lang="pt">
-    <head>
-        <meta charset="utf-8">
-        <title>Iniciando com Jekyll</title>
-        <link rel="stylesheet" href="/assets/css/reset.css">
-        <link rel="stylesheet" href="/assets/css/style.css">
-        <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;400;700&display=swap" rel="stylesheet">
-        <link rel="shortcut icon" type="image/x-icon" href="/assets/images/favicon.ico">
-    </head>
-    <body>
-        <nav class="menu">
-    <ul class="menuLista">
-        
-            <li class="menuItem">
-                <a href="/index.html">Home</a>
-            </li>
-        
-            <li class="menuItem">
-                <a href="/index.html#sobre">Sobre</a>
-            </li>
-        
-            <li class="menuItem">
-                <a href="/index.html#projetos">Projetos</a>
-            </li>
-        
-            <li class="menuItem">
-                <a href="/blog.html">Blog</a>
-            </li>
-        
-    </ul>
-</nav>
-        <section id="poste">
-    <br/><br/>
-    <h1>Iniciando com Jekyll</h1><br/><br/>
-    <p>25 Sep 2020 - por Rodrigo Régio</p><br/><br/>
-    <p>Olá Mundo, Google e pessoal. Este é para ser o primeiro post de meu blog que estou criando…<!--more-->, onde nele explicarei o porque, pra que e como estou criando isto. Primeiramente o porque?<br /><br /></p>
+I"�<p>Olá Mundo, Google e pessoal. Este é para ser o primeiro post de meu blog que estou criando…<!--more-->, onde nele explicarei o porque, pra que e como estou criando isto. Primeiramente o porque?<br /><br /></p>
 
 <p>Estou criando este blog porque recentemente estou ouvindo muitos canais de programadores dizendo que é importante saber como escrever algo onde você documenta toda a sua experiência sobre uma determinada tecnologia pois isto te ajuda a organizar o processamento do que se está falando. E com certa razão quem consegue explicar algo em um texto consegue explicar isto também em audio, video ou qualquer outra forma.<br /><br /></p>
 
@@ -44,7 +8,7 @@
 
 <p><a href="https://youtu.be/LntSB-gl-ZI">https://youtu.be/LntSB-gl-ZI</a></p>
 
-<p>Estou usando o Notion para escrever este post, tentei exportar ele para arquivo md, porém como os arquivos contém partes que são processadas pelo jekyll ele ficou inconsistente e dificil de manter, então como primeiro post vou colocar o link dele abaixo e o resto será aqui neste blog mesmo. (ainda procurarei configura-lo, mas enquanto isso…).<br /><br /></p>
+<p>Estou usando o Notion para escrever este post, tentei exportar ele para arquivo md, porém como os arquivos contém partes que são processadas pelo jekyll ele ficou inconsistente e dificil de manter, então como primeiro post vou colocar o link dele abaixo e o resto será aqui neste blog mesmo. (ainda procurarei configura-lo, mas enquanto isso…)./</p>
 
 <p><a href="https://www.notion.so/Iniciando-com-Jekyll-48f0e5aefc2e4d309b208f64c3529bdd">Post notion</a></p>
 
@@ -69,10 +33,4 @@ s.setAttribute('data-timestamp', +new Date());
 </script>
 
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<br/>
-</section>
-        <div class="rodape">
-    <p>Todos os direitos reservados a Rodrigo Régio de Araújo</p>
-</div>
-    </body>
-</html>
+:ET
