@@ -8,7 +8,7 @@ body { background-color: #060; text-align: center; min-width: 360px; }
 
 .menuItem a:hover { background-color: #5f5; color: #353; }
 
-.menu { position: fixed; width: 100%; top: 0; left: 0; font-size: 1.5em; }
+.menu { position: fixed; width: 100%; top: 0; left: 0; font-size: 2em; }
 
 .rodape { width: 100%; bottom: 0; left: 0; font-size: 1.25em; background-color: #060; color: #AfA; }
 
