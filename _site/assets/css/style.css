@@ -48,4 +48,8 @@ a:link { text-decoration: none; }
 
 .highlight { white-space: pre-wrap; font-size: 1em; background-color: #060; color: #AfA; }
 
+em { text-decoration: underline; }
+
+code { text-emphasis-color: #f00; }
+
 /*# sourceMappingURL=style.css.map */
