@@ -126,9 +126,13 @@ a:link{
     background-color: #060;
     color: #AfA;
 }
-em{
-    text-decoration: underline;
+strong{
+    font-family: sans-serif;
+    font-weight: 600;
 }
-code{
-    text-emphasis-color: #f00;
+em{
+    font-family: Arial;
+    font-weight: 100;
+    color: darkseagreen;
+    background-color: #353;
 }
