@@ -44,7 +44,7 @@ Dentre os nós que podem se conectar podemos citar:
 * Terminais de computadores
 * Pontes (bridges)
 * Computadores
-* roteadores
+* Roteadores<br/><br/>
 Termos e expressões nas redes de computadores serão descritos abaixo:<br/><br/>
 **Endereçamento** - É colocar um endereço a cada nó da rede, seria o equivalente a fazer o que as empresas de telefonia fizeram, todos os telefones tem um número próprio.<br/><br/>
 **Meio** - Ambiente físico para conectar os nós da rede, normalmente algum cabo ou até o ar (pelo wi-fi).<br/><br/>
@@ -54,7 +54,7 @@ Termos e expressões nas redes de computadores serão descritos abaixo:<br/><br/
 ***Local Area Network*** - para redes menores de 10 km de raio, usada para conectar casas, prédios, empresas, etc.<br/><br/>
 ***Wide Area Network*** - para redes com áres maiores de 10 km de raio, usada para conectar computadores entre diferentes países, estados ou cidades.<br/><br/>
 ***Metropolitan Area Network*** - para conectar computadores ao longo de uma grande cidade ou região metropolitana. Imagine, uma empresa deseja conectar-se comas filiais na região da cidade.<br/><br/>
-***Personal Area Network*** - para conectar nós próximos, dispositivos bluetooth criam esta rede.
+***Personal Area Network*** - para conectar nós próximos, dispositivos bluetooth criam esta rede.<br/><br/>
 ***Global Area Network*** - para conectar redes de longa distância ao redor do globo. A internet é o exemplo de uma GAN.<br/><br/>
 ***Storage Area Network*** - Esta não sei o porque de ela estar aqui, mas ela é uma rede definida especificamente para armazenar dados.<br/><br/>
 **Classificação de redes pela topologia**<br/><br/>
@@ -62,9 +62,9 @@ Termos e expressões nas redes de computadores serão descritos abaixo:<br/><br/
 **Rede ponto a ponto** - Neste tipo de rede o nó só pode se comunicar com o nó adjacente (ao lado). Suponhamos a rede com os nós A, B e C o nó A só pode se comunicar com o nó B, então para se comunicar com C fala primeiro com B. Na figura acima a rede em barramento (Bus) é a unica que não a representa.<br/><br/>
 **Rede estrela** - Neste tipo de rede todos os nós se conectam a um nó adjacente central. Os nós na extremidade não se conectam entre si, somente com o núcleo (geralmente um Hub). Na imagem acima a terceira rede da primeira linha a representa (star)<br/><br/>
 **Rede em laço** - Neste tipo de rede todos nós se conectam entre sí, um exemplo dela é a em anel (ring) e a totalmente conectada (fully connected). Na em anel, se um cabo se romper a rede não é danificada, pois os dados trafegam nos dois sentidos (horário e antihorário). Na completamente conectada se um cabo se romper elas se comunicarão por outra rota.<br/><br/>
-**Rede em árvore** - Neste tipo de rede os nós estão dispostos em uma forma hierárquica, o nó principal conecta os de nível abaixo, e por assim vai na rede. Na figura a segunda topologia da segunda linha a representa (tree).
-***Redes de difusão*** - Neste tipo de rede sempre que uma máquina envia uma mensagem, ela (a mensagem) se propaga por toda a rede de forma que todos os nós a escutem, não sei quanto á segurança nessas redes, mas os nós irão analisar da seguinte forma: Esta mensagem é pra mim? Sim, recebe a mensagem. Não, continuo o trabalho e ignoro a mensagem. Uma vantagem é que podemos classificar as mensagens em 3 tipos: Mensagens destinadas a um unico nó (provavelmente aplicam algum nivel de segurança), mensagens destinadas a uma quantidade de nós específicos e mensagens destinadas a todos os nós.
-**Redes em barramento** - este tipo de rede tem as características da rede de difusão (todos os nós irão ouvir a mensagem). Na figura a ultima topologia a representa (Bus).
+**Rede em árvore** - Neste tipo de rede os nós estão dispostos em uma forma hierárquica, o nó principal conecta os de nível abaixo, e por assim vai na rede. Na figura a segunda topologia da segunda linha a representa (tree).<br/><br/>
+***Redes de difusão*** - Neste tipo de rede sempre que uma máquina envia uma mensagem, ela (a mensagem) se propaga por toda a rede de forma que todos os nós a escutem, não sei quanto á segurança nessas redes, mas os nós irão analisar da seguinte forma: Esta mensagem é pra mim? Sim, recebe a mensagem. Não, continuo o trabalho e ignoro a mensagem. Uma vantagem é que podemos classificar as mensagens em 3 tipos: Mensagens destinadas a um unico nó (provavelmente aplicam algum nivel de segurança), mensagens destinadas a uma quantidade de nós específicos e mensagens destinadas a todos os nós.<br/><br/>
+**Redes em barramento** - este tipo de rede tem as características da rede de difusão (todos os nós irão ouvir a mensagem). Na figura a ultima topologia a representa (Bus).<br/><br/>
 **Rede via satélite** - Neste tipo de rede é colocado um satélite na órbita da terra para transmitir as mensagens. Este tipo de rede também é uma rede de difusão. E não há uma topologia na figura para a representar.<br/><br/>
 
 [Link texto completo](https://www.notion.so/Web-semana-1-0c23a8849df045ddaf1c300f01a99881)
