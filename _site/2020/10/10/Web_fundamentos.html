@@ -19,7 +19,7 @@
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2020-10-10T00:00:00-03:00" />
 <script type="application/ld+json">
-{"@type":"BlogPosting","url":"http://localhost:4000/2020/10/10/Web_fundamentos.html","headline":"Redes, componentes, protocolos e serviços","dateModified":"2020-10-10T00:00:00-03:00","datePublished":"2020-10-10T00:00:00-03:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2020/10/10/Web_fundamentos.html"},"description":"Texto base 1 parte 1 - Componentes Olá a todos, sobre esta matéria eu fiz umas anotações, porém meu texto ficou muito grande, e você pode conferir no link ao final da página.","@context":"https://schema.org"}</script>
+{"@type":"BlogPosting","url":"http://localhost:4000/2020/10/10/Web_fundamentos.html","headline":"Redes, componentes, protocolos e serviços","datePublished":"2020-10-10T00:00:00-03:00","dateModified":"2020-10-10T00:00:00-03:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2020/10/10/Web_fundamentos.html"},"description":"Texto base 1 parte 1 - Componentes Olá a todos, sobre esta matéria eu fiz umas anotações, porém meu texto ficou muito grande, e você pode conferir no link ao final da página.","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
     </head>
@@ -89,7 +89,7 @@ Dentre os nós que podem se conectar podemos citar:</p>
   <li>Terminais de computadores</li>
   <li>Pontes (bridges)</li>
   <li>Computadores</li>
-  <li>roteadores<br /><br />
+  <li>Roteadores<br /><br />
 Termos e expressões nas redes de computadores serão descritos abaixo:<br /><br />
 <strong>Endereçamento</strong> - É colocar um endereço a cada nó da rede, seria o equivalente a fazer o que as empresas de telefonia fizeram, todos os telefones tem um número próprio.<br /><br />
 <strong>Meio</strong> - Ambiente físico para conectar os nós da rede, normalmente algum cabo ou até o ar (pelo wi-fi).<br /><br />
@@ -99,7 +99,7 @@ Termos e expressões nas redes de computadores serão descritos abaixo:<br /><br
 <strong><em>Local Area Network</em></strong> - para redes menores de 10 km de raio, usada para conectar casas, prédios, empresas, etc.<br /><br />
 <strong><em>Wide Area Network</em></strong> - para redes com áres maiores de 10 km de raio, usada para conectar computadores entre diferentes países, estados ou cidades.<br /><br />
 <strong><em>Metropolitan Area Network</em></strong> - para conectar computadores ao longo de uma grande cidade ou região metropolitana. Imagine, uma empresa deseja conectar-se comas filiais na região da cidade.<br /><br />
-<strong><em>Personal Area Network</em></strong> - para conectar nós próximos, dispositivos bluetooth criam esta rede.
+<strong><em>Personal Area Network</em></strong> - para conectar nós próximos, dispositivos bluetooth criam esta rede.<br /><br />
 <strong><em>Global Area Network</em></strong> - para conectar redes de longa distância ao redor do globo. A internet é o exemplo de uma GAN.<br /><br />
 <strong><em>Storage Area Network</em></strong> - Esta não sei o porque de ela estar aqui, mas ela é uma rede definida especificamente para armazenar dados.<br /><br />
 <strong>Classificação de redes pela topologia</strong><br /><br />
@@ -107,9 +107,9 @@ Termos e expressões nas redes de computadores serão descritos abaixo:<br /><br
 <strong>Rede ponto a ponto</strong> - Neste tipo de rede o nó só pode se comunicar com o nó adjacente (ao lado). Suponhamos a rede com os nós A, B e C o nó A só pode se comunicar com o nó B, então para se comunicar com C fala primeiro com B. Na figura acima a rede em barramento (Bus) é a unica que não a representa.<br /><br />
 <strong>Rede estrela</strong> - Neste tipo de rede todos os nós se conectam a um nó adjacente central. Os nós na extremidade não se conectam entre si, somente com o núcleo (geralmente um Hub). Na imagem acima a terceira rede da primeira linha a representa (star)<br /><br />
 <strong>Rede em laço</strong> - Neste tipo de rede todos nós se conectam entre sí, um exemplo dela é a em anel (ring) e a totalmente conectada (fully connected). Na em anel, se um cabo se romper a rede não é danificada, pois os dados trafegam nos dois sentidos (horário e antihorário). Na completamente conectada se um cabo se romper elas se comunicarão por outra rota.<br /><br />
-<strong>Rede em árvore</strong> - Neste tipo de rede os nós estão dispostos em uma forma hierárquica, o nó principal conecta os de nível abaixo, e por assim vai na rede. Na figura a segunda topologia da segunda linha a representa (tree).
-<strong><em>Redes de difusão</em></strong> - Neste tipo de rede sempre que uma máquina envia uma mensagem, ela (a mensagem) se propaga por toda a rede de forma que todos os nós a escutem, não sei quanto á segurança nessas redes, mas os nós irão analisar da seguinte forma: Esta mensagem é pra mim? Sim, recebe a mensagem. Não, continuo o trabalho e ignoro a mensagem. Uma vantagem é que podemos classificar as mensagens em 3 tipos: Mensagens destinadas a um unico nó (provavelmente aplicam algum nivel de segurança), mensagens destinadas a uma quantidade de nós específicos e mensagens destinadas a todos os nós.
-<strong>Redes em barramento</strong> - este tipo de rede tem as características da rede de difusão (todos os nós irão ouvir a mensagem). Na figura a ultima topologia a representa (Bus).
+<strong>Rede em árvore</strong> - Neste tipo de rede os nós estão dispostos em uma forma hierárquica, o nó principal conecta os de nível abaixo, e por assim vai na rede. Na figura a segunda topologia da segunda linha a representa (tree).<br /><br />
+<strong><em>Redes de difusão</em></strong> - Neste tipo de rede sempre que uma máquina envia uma mensagem, ela (a mensagem) se propaga por toda a rede de forma que todos os nós a escutem, não sei quanto á segurança nessas redes, mas os nós irão analisar da seguinte forma: Esta mensagem é pra mim? Sim, recebe a mensagem. Não, continuo o trabalho e ignoro a mensagem. Uma vantagem é que podemos classificar as mensagens em 3 tipos: Mensagens destinadas a um unico nó (provavelmente aplicam algum nivel de segurança), mensagens destinadas a uma quantidade de nós específicos e mensagens destinadas a todos os nós.<br /><br />
+<strong>Redes em barramento</strong> - este tipo de rede tem as características da rede de difusão (todos os nós irão ouvir a mensagem). Na figura a ultima topologia a representa (Bus).<br /><br />
 <strong>Rede via satélite</strong> - Neste tipo de rede é colocado um satélite na órbita da terra para transmitir as mensagens. Este tipo de rede também é uma rede de difusão. E não há uma topologia na figura para a representar.<br /><br /></li>
 </ul>
 
