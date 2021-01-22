@@ -1,14 +1,14 @@
-body { margin-left: auto; margin-right: auto; background-color: #060; text-align: center; min-width: 360px; max-width: 1300px; }
+body { margin-left: auto; margin-right: auto; background-color: #060; text-align: center; min-width: 540px; max-width: 1300px; }
 
-.menuLista { list-style-type: none; margin: 0; padding: 8px; overflow: hidden; background-color: #060; }
+.menuLista { position: absolute; list-style-type: none; width: 100%; /*translate: translateX(-50%);*/ padding: 8px; overflow: hidden; background-color: #060; }
 
-.menuItem { float: inline-start; }
+.menuItem { float: right; }
 
-.menuItem a { display: block; color: #7f7; text-align: center; padding: 10px 10px; text-decoration: none; }
+.menuItem a { color: #7f7; text-align: center; padding: 10px 10px; text-decoration: none; }
 
 .menuItem a:hover { background-color: #5f5; color: #353; }
 
-.menu { margin-left: auto; margin-right: auto; position: fixed; width: 100%; top: 0; left: 0; font-size: 2em; }
+.menu { position: absolute; width: 100%; left: -25%; font-size: 2em; }
 
 .rodape { width: 100%; bottom: 0; left: 0; font-size: 1.25em; background-color: #060; color: #AfA; }
 
@@ -18,7 +18,7 @@ body { margin-left: auto; margin-right: auto; background-color: #060; text-align
 
 h1 { font-family: 'Architects Daughter', cursive; font-weight: 900; padding: 20px; }
 
-p { margin-left: 10px; margin-right: 10px; font-family: 'Solway', serif; font-weight: 400; }
+p { margin-left: 15px; margin-right: 15px; font-family: 'Solway', serif; font-weight: 400; }
 
 #sobre { background-color: #9f9; text-align: left; font-size: 1.5em; vertical-align: middle; display: table-cell; text-align: center; }
 

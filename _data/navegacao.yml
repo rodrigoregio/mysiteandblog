@@ -1,8 +1,8 @@
-- name: Home
-  link: /index.html
-- name: Sobre
-  link: /index.html#sobre
-- name: Projetos
-  link: /index.html#projetos
 - name: Blog
   link: /blog.html
+- name: Projetos
+  link: /index.html#projetos
+- name: Sobre
+  link: /index.html#sobre
+- name: Home
+  link: /index.html
