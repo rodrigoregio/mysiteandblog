@@ -1,18 +1,20 @@
-body { margin-left: auto; margin-right: auto; background-color: #060; text-align: center; min-width: 540px; max-width: 1300px; }
+:root { --itenspagina: #5f5; --corpo_pagina: #060; }
 
-.menuLista { position: absolute; list-style-type: none; width: 100%; /*translate: translateX(-50%);*/ padding: 8px; overflow: hidden; background-color: #060; }
+body { margin-left: auto; margin-right: auto; background-color: var(--corpo_pagina); text-align: center; min-width: 540px; max-width: 1300px; }
+
+.menuLista { position: absolute; list-style-type: none; width: 100%; /*translate: translateX(-50%);*/ padding: 8px; overflow: hidden; background-color: var(--corpo_pagina); }
 
 .menuItem { float: right; }
 
-.menuItem a { color: #7f7; text-align: center; padding: 10px 10px; text-decoration: none; }
+.menuItem a { color: var(--itenspagina); text-align: center; padding: 10px 10px; text-decoration: none; }
 
-.menuItem a:hover { background-color: #5f5; color: #353; }
+.menuItem a:hover { background-color: var(--itenspagina); color: var(--corpo_pagina); }
 
 .menu { position: absolute; width: 100%; left: -25%; font-size: 2em; }
 
 .rodape { width: 100%; bottom: 0; left: 0; font-size: 1.25em; background-color: #060; color: #AfA; }
 
-#home { padding-left: 15px; padding-bottom: 15px; padding-right: 15px; background-color: #5f5; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-size: 1.5em; }
+#home { padding-left: 15px; padding-bottom: 15px; padding-right: 15px; background-color: var(--itenspagina); font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-size: 1.5em; }
 
 #home > img { width: 150px; padding: 100px; }
 
@@ -20,7 +22,7 @@ h1 { font-family: 'Architects Daughter', cursive; font-weight: 900; padding: 20p
 
 p { margin-left: 15px; margin-right: 15px; font-family: 'Solway', serif; font-weight: 400; }
 
-#sobre { background-color: #9f9; text-align: left; font-size: 1.5em; vertical-align: middle; display: table-cell; text-align: center; }
+#sobre { background-color: var(--itenspagina); text-align: left; font-size: 1.5em; vertical-align: middle; display: table-cell; text-align: center; }
 
 #sobre p { text-align: justify; }
 
@@ -28,7 +30,7 @@ a:hover { background-color: #060; color: #8f8; }
 
 a:link { text-decoration: none; }
 
-#projetos { background-color: #AfA; font-size: 1.5em; }
+#projetos { background-color: var(--itenspagina); font-size: 1.5em; }
 
 #blog { padding: 70px; background-color: #AfA; font-size: 1.5em; }
 

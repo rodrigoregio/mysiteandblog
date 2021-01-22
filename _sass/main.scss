@@ -1,7 +1,11 @@
+:root{
+--itenspagina: #5f5;
+--corpo_pagina: #060;
+}
 body{
     margin-left: auto;
     margin-right: auto;
-    background-color: #060;
+    background-color: var(--corpo_pagina);
     text-align: center;
     min-width: 540px;
     max-width: 1300px;
@@ -13,20 +17,20 @@ body{
     /*translate: translateX(-50%);*/
     padding: 8px;
     overflow: hidden;
-    background-color: #060;
+    background-color: var(--corpo_pagina);
 }
 .menuItem {
     float: right
 } 
 .menuItem a {
-    color: #7f7;
+    color: var(--itenspagina);
     text-align: center;
     padding: 10px 10px;
     text-decoration: none;
 }
 .menuItem a:hover {
-    background-color: #5f5;
-    color: #353;
+    background-color: var(--itenspagina);
+    color: var(--corpo_pagina);
 }
 .menu{
     position: absolute;
@@ -46,7 +50,7 @@ body{
     padding-left: 15px;
     padding-bottom: 15px;
     padding-right: 15px;
-    background-color: #5f5;
+    background-color: var(--itenspagina);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 1.5em;
 }
@@ -66,7 +70,7 @@ p{
     font-weight: 400;
 }
 #sobre{
-    background-color: #9f9;
+    background-color: var(--itenspagina);
     text-align: left;
     font-size: 1.5em;
     vertical-align: middle;
@@ -85,7 +89,7 @@ a:link{
     text-decoration: none;
 }
 #projetos{
-    background-color: #AfA;
+    background-color: var(--itenspagina);
     font-size: 1.5em;
 }
 #blog{
