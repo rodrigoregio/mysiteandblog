@@ -18,6 +18,7 @@ body{
     padding: 8px;
     overflow: hidden;
     background-color: var(--corpo_pagina);
+    font-family: 'Architects Daughter', cursive;
 }
 .menuItem {
     float: right
@@ -39,12 +40,14 @@ body{
     font-size: 2em;
 }
 .rodape{
+    font-family: 'Architects Daughter', cursive;
     width: 100%;
     bottom: 0;
     left: 0;   
     font-size: 1.25em;
-    background-color: #060;
-    color: #AfA;
+    background-color: var(--corpo_pagina);
+    color: var(--itenspagina);
+    padding: 5px;
 }
 #home{
     padding-left: 15px;

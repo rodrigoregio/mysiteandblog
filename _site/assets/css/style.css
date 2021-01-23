@@ -2,7 +2,7 @@
 
 body { margin-left: auto; margin-right: auto; background-color: var(--corpo_pagina); text-align: center; min-width: 540px; max-width: 1300px; }
 
-.menuLista { position: fixed; list-style-type: none; width: 100%; /*translate: translateX(-50%);*/ padding: 8px; overflow: hidden; background-color: var(--corpo_pagina); }
+.menuLista { position: fixed; list-style-type: none; width: 100%; /*translate: translateX(-50%);*/ padding: 8px; overflow: hidden; background-color: var(--corpo_pagina); font-family: 'Architects Daughter', cursive; }
 
 .menuItem { float: right; }
 
@@ -12,7 +12,7 @@ body { margin-left: auto; margin-right: auto; background-color: var(--corpo_pagi
 
 .menu { position: absolute; width: 100%; left: -25%; font-size: 2em; }
 
-.rodape { width: 100%; bottom: 0; left: 0; font-size: 1.25em; background-color: #060; color: #AfA; }
+.rodape { font-family: 'Architects Daughter', cursive; width: 100%; bottom: 0; left: 0; font-size: 1.25em; background-color: var(--corpo_pagina); color: var(--itenspagina); padding: 5px; }
 
 #home { padding-left: 15px; padding-bottom: 15px; padding-right: 15px; background-color: var(--itenspagina); font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-size: 1.5em; }
 
