@@ -14,7 +14,7 @@ body { margin-left: auto; margin-right: auto; background-color: var(--corpo_pagi
 
 .rodape { font-family: 'Architects Daughter', cursive; width: 100%; bottom: 0; left: 0; font-size: 1.25em; background-color: var(--corpo_pagina); color: var(--itenspagina); padding: 5px; }
 
-#home { padding-left: 15px; padding-bottom: 15px; padding-right: 15px; background-color: var(--itenspagina); font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-size: 1.5em; }
+#home { padding-left: 15px; padding-bottom: 15px; padding-right: 15px; background-color: var(--itenspagina); font-family: serif; font-size: 2em; }
 
 #home > img { width: 150px; padding: 50px; }
 
@@ -22,7 +22,7 @@ h1 { font-family: 'Architects Daughter', cursive; font-weight: 900; padding: 15p
 
 p { margin-left: 15px; margin-right: 15px; font-family: 'Solway', serif; font-weight: 400; }
 
-.separador { background-color: var(--corpo_pagina); width: 86%; border-radius: 5px; height: 10px; margin-left: 7%; margin-right: 7%; }
+.separador { background-color: var(--corpo_pagina); width: 50%; border-radius: 5px; height: 10px; margin-left: 25%; margin-right: 25%; }
 
 #sobre { background-color: var(--itenspagina); text-align: left; font-size: 1.5em; vertical-align: middle; display: table-cell; text-align: center; }
 
@@ -36,7 +36,9 @@ a:link { text-decoration: none; }
 
 #projetos { background-color: var(--itenspagina); font-size: 1.5em; }
 
-#blog { padding: 70px; background-color: #AfA; font-size: 1.5em; }
+#projetos p { text-align: left; line-height: 1.4em; }
+
+#blog { padding: 70px; background-color: var(--itenspagina); color: var(--corpo_pagina); font-size: 1.5em; }
 
 #blog p { line-height: 20px; }
 
@@ -44,13 +46,17 @@ a:link { text-decoration: none; }
 
 #blog h1 { padding-top: 10px; }
 
-#sitetags { background-color: #9f9; font-size: 1.5em; }
+#sitetags { font-size: 1.5em; background-color: var(--itenspagina); }
 
 #sitetags li { list-style: none; line-height: 10px; padding: 10px; }
 
 #sitetags p { list-style: none; line-height: 10px; padding: 10px; }
 
-#poste { background-color: #AfA; font-size: 1.5em; text-align: left; padding: 20px; }
+#poste { background-color: var(--itenspagina); font-size: 1.5em; text-align: left; padding: 20px; }
+
+#poste img { width: 70px; border: 2px solid var(--corpo_pagina); border-radius: 50%; padding: 2px; }
+
+#poste p { line-height: 1.3em; }
 
 .highlight { white-space: pre-wrap; font-size: 1em; background-color: #060; color: #AfA; }
 

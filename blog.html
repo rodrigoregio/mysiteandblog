@@ -7,7 +7,7 @@ title: blog
     <h1>Ultimos posts</h1>
     <ul>
         {% for post in site.posts %}
-        <li style="background-color: #8f8">
+        <li>
             <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
             {{ post.excerpt }}
         </li><br/>
@@ -15,6 +15,7 @@ title: blog
     </ul>
 </section>
 <section id="sitetags" class="grid-item">
+    <div class="separador"></div>
     <h1>Tags:</h1>
     {% for tag in site.tags %}
     <p>{{ tag[0] }}</p>
