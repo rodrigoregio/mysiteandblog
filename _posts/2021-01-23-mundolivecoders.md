@@ -26,3 +26,5 @@ comments: true
 <img src="/assets/images/chicao.png" alt="ChicaoCodes"><br>
 &nbsp;&nbsp;&nbsp;&nbsp;O chicão é um streamer que compartilha conosco o dia a dia em seu trabalho, ele trabalha e faz lives ao mesmo tempo, é muito bom poder conversar com ele. E agora não lembro o que da pra comprar com os pontos da twitch kkk foi mals chicão...<br>
 &nbsp;&nbsp;&nbsp;&nbsp;Enfim, se for para falar de todos que assisto ficaria o dia falando deles aqui. Então tenho certeza que algum te agradará. Desde que descobri isso passo horas assistindo ou no lurk (lurk é a giria pra quem não pode ver ou ouvir a live, então fica dando audiência sem prestar atenção no conteudo). Então o que peço é que mesmo que não possa assistir a live, deixe no lurk para ajudar essas pessoas. E é isso, quem sabe um dia eu começo a fazer lives... alguns deles estão tentando me convencer kkkk. E se você conhece outros livestreamers, comente aqui embaixo kkk.
+
+PS.: Comecei a fazer lives na twitch, meu canal é https://twitch.tv/boirods
