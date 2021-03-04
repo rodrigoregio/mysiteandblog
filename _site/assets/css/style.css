@@ -54,14 +54,16 @@ a:link { text-decoration: none; }
 
 #poste { background-color: var(--itenspagina); font-size: 1.5em; text-align: left; padding: 20px; }
 
-#poste img { width: 70px; border: 2px solid var(--corpo_pagina); border-radius: 50%; padding: 2px; }
+.streamers { width: 70px; border: 2px solid var(--corpo_pagina); border-radius: 50%; padding: 2px; }
 
-#poste p { line-height: 1.3em; }
+p { line-height: 1.3em; }
 
 .highlight { white-space: pre-wrap; font-size: 1em; background-color: #060; color: #AfA; }
 
 strong { font-family: sans-serif; font-weight: 600; }
 
 em { font-family: Arial; font-weight: 100; color: darkseagreen; background-color: #353; }
+
+.post_img { width: 500px; border: solid 1px black; padding: 5px; border-radius: 20px; align-self: center; }
 
 /*# sourceMappingURL=style.css.map */
