@@ -27,5 +27,5 @@ Sim, comecei a fazer livestream (ou melhor, livecoding).<!--more--> E devido a i
 
 <br>Na minha opinião o mais dificil foi começar a fazer o bot, pois requer certa atenção no desenvolvimento. Após o início segui / sigo o desenvolvimento tranquilamente... Ainda não consegui solucionar o problema do nome do bot, já pesquisei de algumas formas e não o encontrei, se você souber me orientar ficarei muito agradecido!
 
-<br>Sintam-se livres para me contactar nos comentários ou nas minhas redes sociais!
+<br>Sintam-se livres para me contactar nos comentários ou nas minhas redes sociais!<br>
 PS.: Já parei de fazer o livecoding pois meu computador não é adequado para isto e atualmente estou trabalhando.
