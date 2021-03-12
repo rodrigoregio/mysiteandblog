@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>http://localhost:4000/2020/09/25/IniciandocomJekyll.html</loc>
+<loc>/2020/09/25/IniciandocomJekyll.html</loc>
 <lastmod>2020-09-25T00:00:00-03:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/2020/10/06/AsyncTask-em-Android.html</loc>
+<loc>/2020/10/06/AsyncTask-em-Android.html</loc>
 <lastmod>2020-10-06T00:00:00-03:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/2021/01/23/mundolivecoders.html</loc>
+<loc>/2021/01/23/mundolivecoders.html</loc>
 <lastmod>2021-01-23T00:00:00-03:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/2021/02/19/experiencias_twitch_chatbot.html</loc>
+<loc>/2021/02/19/experiencias_twitch_chatbot.html</loc>
 <lastmod>2021-02-19T00:00:00-03:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/2021/02/28/Sensa%C3%A7%C3%B5es.html</loc>
+<loc>/2021/02/28/Sensa%C3%A7%C3%B5es.html</loc>
 <lastmod>2021-02-28T00:00:00-03:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/blog.html</loc>
+<loc>/blog.html</loc>
 </url>
 <url>
-<loc>http://localhost:4000/</loc>
+<loc>/</loc>
 </url>
 </urlset>

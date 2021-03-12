@@ -1,8 +1,13 @@
 assets/images/eu3.xcf
 assets/images/eu2.jpg
+.jekyll-cache/
 _site
 .sass-cache
 .jekyll-cache
 .jekyll-metadata
 rascunhos
 vendor
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
