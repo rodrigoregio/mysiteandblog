@@ -5,7 +5,7 @@ excerpt_separator: <!--more-->
 tags: pessoal conversa
 comments: true
 ---
-Bom dia, boa tarde, ou boa noite gente. Esse post é mais uma conversa do que algo que descobri, hoje de manhã eu estava fazendo live e jogando minecraft (faço mais pra ter uma conversa com os followers) e estavamos conversando sobre coisas que acontecem e podem acontecer na vida mesmo. Pela minha idade já aconteceram algumas coisas boas e ruins kkk... E estava comentando sobre o seguinte episódio:<br><br>
+Bom dia, boa tarde, ou boa noite gente. Esse post é mais uma conversa do que algo que descobri, hoje de manhã eu estava fazendo live e jogando minecraft <!--more-->(faço mais pra ter uma conversa com os followers) e estavamos conversando sobre coisas que acontecem e podem acontecer na vida mesmo. Pela minha idade já aconteceram algumas coisas boas e ruins kkk... E estava comentando sobre o seguinte episódio:<br><br>
 <img src="/assets/images/fato1sobremim.png" class="post_img" alt="Desenho do tema: uma bola de basquete, um dente e sangue"><br><br>
 <h1>O dia que quebrei o dente de uma "amiguinha" da escola...</h1>
 Tinha lá os meus 15 anos quando isso aconteceu, e na época eu gostava muito de basquete. E nas escolas tinham a aula de Educação Física, que eram mais um espaço de lazer durante as aulas (digo isso porque nada era obrigado a fazer e as aulas não tinham um tema). E aí decidiram que iam jogar basquete, aí quis participar e jogamos.<br><br>
