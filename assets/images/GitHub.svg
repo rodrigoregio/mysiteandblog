@@ -1,0 +1,807 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="500"
+   height="350"
+   viewBox="0 0 132.29167 92.604162"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="GitHub.svg">
+  <title
+     id="title1517">Git, e hub</title>
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.1002582"
+     inkscape:cx="202.15223"
+     inkscape:cy="85.380779"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     units="px"
+     width="500px"
+     showguides="false"
+     inkscape:guide-bbox="true"
+     inkscape:lockguides="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="970"
+     inkscape:window-x="1366"
+     inkscape:window-y="32"
+     inkscape:window-maximized="1">
+    <sodipodi:guide
+       position="15.473704,37.578993"
+       orientation="0,1"
+       id="guide1313"
+       inkscape:locked="false" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Git, e hub</dc:title>
+        <dc:date>19/05/2021</dc:date>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Rodrigo Régio</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:rights>
+          <cc:Agent>
+            <dc:title>MIT</dc:title>
+          </cc:Agent>
+        </dc:rights>
+        <dc:publisher>
+          <cc:Agent>
+            <dc:title>Rodrigo Régio</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:relation>Git e GitHub</dc:relation>
+        <dc:language>pt-br</dc:language>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>git github</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:description>Imagem para meu blog sobre o git e github.</dc:description>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Camada 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-204.39584)">
+    <rect
+       style="fill:#82b182;fill-opacity:1;stroke:none;stroke-width:1.32299995;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect815"
+       width="132.29167"
+       height="92.604164"
+       x="0"
+       y="204.39584"
+       inkscape:export-filename="/home/regio/git/mysiteandblog/assets/gitandhub.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <g
+       id="g1008"
+       transform="matrix(0.66356598,0,0,0.66356598,-1.8407637,84.406897)"
+       inkscape:export-filename="/home/regio/git/mysiteandblog/assets/gitandhub.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
+      <circle
+         r="13.229166"
+         cy="250.69792"
+         cx="26.458334"
+         id="path819"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.41052151;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <g
+         id="g842">
+        <path
+           style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.28335872px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 15.825431,244.61376 c 0,0 -2.639887,-9.39124 -0.845881,-17.44633 2.368468,9.21323 6.767054,11.56555 6.767054,11.56555 z"
+           id="path821"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cccc" />
+        <path
+           style="fill:#ffffff;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 16.592696,242.23208 c 0,0 -1.452895,-2.79053 -1.502961,-8.89753 1.693366,5.97681 3.486871,7.03386 3.486871,7.03386 z"
+           id="path838"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cccc" />
+      </g>
+      <g
+         id="g842-6"
+         transform="matrix(-1,0,0,1,54.228374,0.3323319)">
+        <path
+           style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.28335872px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 15.825431,244.61376 c 0,0 -2.639887,-9.39124 -0.845881,-17.44633 2.368468,9.21323 6.767054,11.56555 6.767054,11.56555 z"
+           id="path821-7"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cccc" />
+        <path
+           style="fill:#ffffff;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 16.592696,242.23208 c 0,0 -1.452895,-2.79053 -1.502961,-8.89753 1.693366,5.97681 3.486871,7.03386 3.486871,7.03386 z"
+           id="path838-5"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cccc" />
+      </g>
+      <ellipse
+         ry="4.2684112"
+         rx="4.0880556"
+         cy="247.52251"
+         cx="20.921227"
+         id="path865"
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.32300007;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <ellipse
+         ry="4.2684112"
+         rx="4.0880556"
+         cy="247.58263"
+         cx="31.141365"
+         id="path865-3"
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.32300007;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path882"
+         d="m 23.325965,253.59447 h 5.410661 l -2.765449,3.36664 z"
+         style="fill:#ffffff;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         d="m 25.825693,256.54028 a 3.3413868,2.9205563 0 0 1 -1.798512,2.59057 3.3413868,2.9205563 0 0 1 -3.459426,-0.19819"
+         sodipodi:open="true"
+         sodipodi:end="2.1816654"
+         sodipodi:start="0"
+         sodipodi:ry="2.9205563"
+         sodipodi:rx="3.3413868"
+         sodipodi:cy="256.54028"
+         sodipodi:cx="22.484306"
+         sodipodi:type="arc"
+         id="path884"
+         style="fill:#000000;fill-opacity:1;stroke:#fffffe;stroke-width:0.31507754;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         transform="scale(-1,1)"
+         d="m -26.12468,256.54694 a 3.3413868,2.9205563 0 0 1 -1.798511,2.59056 3.3413868,2.9205563 0 0 1 -3.459427,-0.19819"
+         sodipodi:open="true"
+         sodipodi:end="2.1816654"
+         sodipodi:start="0"
+         sodipodi:ry="2.9205563"
+         sodipodi:rx="3.3413868"
+         sodipodi:cy="256.54694"
+         sodipodi:cx="-29.466066"
+         sodipodi:type="arc"
+         id="path884-5"
+         style="fill:#000000;fill-opacity:1;stroke:#fffffe;stroke-width:0.31507754;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <ellipse
+         ry="3.2463973"
+         rx="1.2624878"
+         cy="247.70287"
+         cx="20.921227"
+         id="path903"
+         style="fill:#000000;fill-opacity:1;stroke:#fffffe;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <ellipse
+         ry="3.2463973"
+         rx="1.2624878"
+         cy="247.46239"
+         cx="31.38184"
+         id="path903-6"
+         style="fill:#000000;fill-opacity:1;stroke:#fffffe;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       id="g1012"
+       transform="translate(-14.283419,1.5303663)"
+       inkscape:export-filename="/home/regio/git/mysiteandblog/assets/gitandhub.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
+      <path
+         inkscape:connector-curvature="0"
+         id="path920"
+         d="m 38.292144,252.62206 c 0,0 2.608431,-15.54001 11.303203,-15.54001 8.694772,0 17.215649,0 17.215649,0 l 0.521686,-2.36477 H 48.551975 c 0,0 -9.321857,1.5324 -10.312531,13.09685 -0.990673,11.56445 0.0527,4.80793 0.0527,4.80793 z"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.18856898;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path992"
+         d="m 69.647243,235.61906 -7.454688,-5.77138 0.240471,11.78322 z"
+         style="fill:#000008;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    </g>
+    <g
+       transform="matrix(0.748957,0,0,-1.1993507,-6.148167,553.74859)"
+       id="g1012-7"
+       inkscape:export-filename="/home/regio/git/mysiteandblog/assets/gitandhub.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
+      <path
+         inkscape:connector-curvature="0"
+         id="path920-9"
+         d="m 38.292144,252.62206 c 0,0 2.608431,-15.54001 11.303203,-15.54001 8.694772,0 17.215649,0 17.215649,0 l 0.521686,-2.36477 H 48.551975 c 0,0 -9.321857,1.5324 -10.312531,13.09685 -0.990673,11.56445 0.0527,4.80793 0.0527,4.80793 z"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.18856898;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path992-2"
+         d="m 69.647243,235.61906 -7.454688,-5.77138 0.240471,11.78322 z"
+         style="fill:#000008;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    </g>
+    <g
+       transform="matrix(1.1281922,0,0,1,53.774521,-10.294082)"
+       id="g1012-9"
+       inkscape:export-filename="/home/regio/git/mysiteandblog/assets/gitandhub.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
+      <path
+         inkscape:connector-curvature="0"
+         id="path920-3"
+         d="m 38.292144,252.62206 c 0,0 2.608431,-15.54001 11.303203,-15.54001 8.694772,0 17.215649,0 17.215649,0 l 0.521686,-2.36477 H 48.551975 c 0,0 -9.321857,1.5324 -10.312531,13.09685 -0.990673,11.56445 0.0527,4.80793 0.0527,4.80793 z"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.18856898;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path992-1"
+         d="m 69.647243,235.61906 -7.454688,-5.77138 0.240471,11.78322 z"
+         style="fill:#000008;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    </g>
+    <path
+       style="fill:#999999;fill-opacity:1;stroke:#000000;stroke-width:0.32414126;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 58.470868,263.63354 c -0.168889,-0.0475 -0.143002,1.34775 0.553971,6.76858 1.486874,11.56445 15.478125,13.09688 15.478125,13.09688 h 20.621479 l -0.148828,4.86998 11.188465,-5.77174 -10.827764,-6.01152 -0.139009,4.54856 H 76.068758 c -13.04974,0 -16.964337,-15.54014 -16.964337,-15.54014 0,0 -0.442148,-1.9068 -0.633553,-1.9606 z"
+       id="path920-5"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/regio/git/mysiteandblog/assets/gitandhub.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="fill:#4d4d4d;fill-opacity:1;stroke:#000000;stroke-width:0.99999994;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 207.12695 80.039062 C 203.62455 95.764821 206.83553 113.3703 208.44141 120.4668 A 33.178297 33.178297 0 0 0 202.73828 139.05273 A 33.178297 33.178297 0 0 0 235.91602 172.23047 A 33.178297 33.178297 0 0 0 269.09375 139.05273 A 33.178297 33.178297 0 0 0 265.67773 124.43164 L 265.87305 124.62695 C 265.87305 124.62695 272.49345 101.07297 267.99414 80.871094 C 262.51248 102.19447 252.80483 108.79098 251.32227 109.69336 A 33.178297 33.178297 0 0 0 235.91602 105.87305 A 33.178297 33.178297 0 0 0 223.19922 108.43945 C 220.53766 106.56834 212.09328 99.357846 207.12695 80.039062 z "
+       transform="matrix(0.26458333,0,0,0.26458333,0,204.39584)"
+       id="path819-6"
+       inkscape:export-filename="/home/regio/git/mysiteandblog/assets/gitandhub.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.17556849px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 56.402122,235.03985 c 0,0 -0.964091,-1.8517 -0.997313,-5.90409 1.12366,3.966 2.313769,4.66743 2.313769,4.66743 z"
+       id="path838-6"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccc"
+       inkscape:export-filename="/home/regio/git/mysiteandblog/assets/gitandhub.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.17556849px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 69.307196,235.26038 c 0,0 0.964091,-1.8517 0.997313,-5.9041 -1.12366,3.96601 -2.313769,4.66743 -2.313769,4.66743 z"
+       id="path838-5-0"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccc"
+       inkscape:export-filename="/home/regio/git/mysiteandblog/assets/gitandhub.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <ellipse
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.26458333;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path865-6"
+       cx="58.74522"
+       cy="239.07957"
+       rx="2.7126946"
+       ry="2.8323724"
+       inkscape:export-filename="/home/regio/git/mysiteandblog/assets/gitandhub.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <ellipse
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.26458333;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path865-3-1"
+       cx="65.526955"
+       cy="239.11946"
+       rx="2.7126946"
+       ry="2.8323724"
+       inkscape:export-filename="/home/regio/git/mysiteandblog/assets/gitandhub.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.17556849px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 60.340924,243.10872 h 3.59033 l -1.835058,2.23399 z"
+       id="path882-5"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/regio/git/mysiteandblog/assets/gitandhub.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="fill:#4d4d4d;fill-opacity:1;stroke:#fffffe;stroke-width:0.20907474;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path884-54"
+       sodipodi:type="arc"
+       sodipodi:cx="59.782429"
+       sodipodi:cy="245.06346"
+       sodipodi:rx="2.2172306"
+       sodipodi:ry="1.9379817"
+       sodipodi:start="0"
+       sodipodi:end="2.1816654"
+       sodipodi:open="true"
+       d="m 61.999659,245.06346 a 2.2172306,1.9379817 0 0 1 -1.193431,1.71901 2.2172306,1.9379817 0 0 1 -2.295557,-0.13151"
+       inkscape:export-filename="/home/regio/git/mysiteandblog/assets/gitandhub.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="fill:#4d4d4d;fill-opacity:1;stroke:#fffffe;stroke-width:0.20907474;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path884-5-7"
+       sodipodi:type="arc"
+       sodipodi:cx="-64.415283"
+       sodipodi:cy="245.06787"
+       sodipodi:rx="2.2172306"
+       sodipodi:ry="1.9379817"
+       sodipodi:start="0"
+       sodipodi:end="2.1816654"
+       sodipodi:open="true"
+       d="m -62.198053,245.06787 a 2.2172306,1.9379817 0 0 1 -1.193431,1.71901 2.2172306,1.9379817 0 0 1 -2.295557,-0.13151"
+       transform="scale(-1,1)"
+       inkscape:export-filename="/home/regio/git/mysiteandblog/assets/gitandhub.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <ellipse
+       style="fill:#4d4d4d;fill-opacity:1;stroke:#fffffe;stroke-width:0.17556849;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path903-65"
+       cx="58.74522"
+       cy="239.19925"
+       rx="0.83774394"
+       ry="2.1541986"
+       inkscape:export-filename="/home/regio/git/mysiteandblog/assets/gitandhub.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <ellipse
+       style="fill:#4d4d4d;fill-opacity:1;stroke:#fffffe;stroke-width:0.17556849;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path903-6-6"
+       cx="65.686531"
+       cy="239.03967"
+       rx="0.83774394"
+       ry="2.1541986"
+       inkscape:export-filename="/home/regio/git/mysiteandblog/assets/gitandhub.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="fill:#999999;fill-opacity:1;stroke:#000000;stroke-width:0.99999994;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 177.09766 194.05078 C 173.59555 209.77523 176.80415 227.38083 178.41016 234.47852 A 33.178297 33.178297 0 0 0 172.70703 253.06445 A 33.178297 33.178297 0 0 0 205.88477 286.24219 A 33.178297 33.178297 0 0 0 239.06445 253.06445 A 33.178297 33.178297 0 0 0 235.64648 238.44531 L 235.8418 238.63867 C 235.8418 238.63867 242.4622 215.08664 237.96289 194.88477 C 232.48257 216.20294 222.77924 222.8001 221.29297 223.70508 A 33.178297 33.178297 0 0 0 205.88477 219.88672 A 33.178297 33.178297 0 0 0 193.16992 222.45117 C 190.50876 220.58045 182.06421 213.37042 177.09766 194.05078 z "
+       transform="matrix(0.26458333,0,0,0.26458333,0,204.39584)"
+       id="path819-3"
+       inkscape:export-filename="/home/regio/git/mysiteandblog/assets/gitandhub.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.17556849px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 47.927418,265.20574 c 0,0 -0.964091,-1.85171 -0.997313,-5.9041 1.12366,3.966 2.313769,4.66743 2.313769,4.66743 z"
+       id="path838-52"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccc"
+       inkscape:export-filename="/home/regio/git/mysiteandblog/assets/gitandhub.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.17556849px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 61.361659,265.42626 c 0,0 0.964091,-1.85171 0.997313,-5.9041 -1.12366,3.966 -2.313769,4.66743 -2.313769,4.66743 z"
+       id="path838-5-7"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccc"
+       inkscape:export-filename="/home/regio/git/mysiteandblog/assets/gitandhub.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <ellipse
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.26458333;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path865-4"
+       cx="50.799683"
+       cy="269.24545"
+       rx="2.7126946"
+       ry="2.8323724"
+       inkscape:export-filename="/home/regio/git/mysiteandblog/assets/gitandhub.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <ellipse
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.26458333;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path865-3-4"
+       cx="57.581421"
+       cy="269.28534"
+       rx="2.7126946"
+       ry="2.8323724"
+       inkscape:export-filename="/home/regio/git/mysiteandblog/assets/gitandhub.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.17556849px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 52.395387,273.2746 h 3.59033 l -1.835058,2.23399 z"
+       id="path882-3"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/regio/git/mysiteandblog/assets/gitandhub.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="fill:#999999;fill-opacity:1;stroke:#fffffe;stroke-width:0.20907474;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path884-0"
+       sodipodi:type="arc"
+       sodipodi:cx="51.836891"
+       sodipodi:cy="275.22934"
+       sodipodi:rx="2.2172306"
+       sodipodi:ry="1.9379817"
+       sodipodi:start="0"
+       sodipodi:end="2.1816654"
+       sodipodi:open="true"
+       d="m 54.054122,275.22934 a 2.2172306,1.9379817 0 0 1 -1.193431,1.71901 2.2172306,1.9379817 0 0 1 -2.295558,-0.13151"
+       inkscape:export-filename="/home/regio/git/mysiteandblog/assets/gitandhub.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="fill:#999999;fill-opacity:1;stroke:#fffffe;stroke-width:0.20907474;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path884-5-78"
+       sodipodi:type="arc"
+       sodipodi:cx="-56.469749"
+       sodipodi:cy="275.23376"
+       sodipodi:rx="2.2172306"
+       sodipodi:ry="1.9379817"
+       sodipodi:start="0"
+       sodipodi:end="2.1816654"
+       sodipodi:open="true"
+       d="m -54.252519,275.23376 a 2.2172306,1.9379817 0 0 1 -1.193431,1.71902 2.2172306,1.9379817 0 0 1 -2.295558,-0.13152"
+       transform="scale(-1,1)"
+       inkscape:export-filename="/home/regio/git/mysiteandblog/assets/gitandhub.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <ellipse
+       style="fill:#999999;fill-opacity:1;stroke:#fffffe;stroke-width:0.17556849;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path903-68"
+       cx="50.799683"
+       cy="269.36514"
+       rx="0.83774394"
+       ry="2.1541986"
+       inkscape:export-filename="/home/regio/git/mysiteandblog/assets/gitandhub.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <ellipse
+       style="fill:#999999;fill-opacity:1;stroke:#fffffe;stroke-width:0.17556849;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path903-6-8"
+       cx="57.74099"
+       cy="269.20557"
+       rx="0.83774394"
+       ry="2.1541986"
+       inkscape:export-filename="/home/regio/git/mysiteandblog/assets/gitandhub.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <g
+       id="g1571"
+       inkscape:export-filename="/home/regio/git/mysiteandblog/assets/gitandhub.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
+      <path
+         id="path819-31"
+         transform="matrix(0.26458333,0,0,0.26458333,0,204.39584)"
+         d="M 408.96289 237.48633 C 405.46079 253.21077 408.66938 270.81638 410.27539 277.91406 A 33.178297 33.178297 0 0 0 404.57227 296.5 A 33.178297 33.178297 0 0 0 437.75 329.67773 A 33.178297 33.178297 0 0 0 470.92969 296.5 A 33.178297 33.178297 0 0 0 467.50977 281.87891 L 467.70703 282.07422 C 467.70703 282.07422 474.32743 258.52219 469.82812 238.32031 C 464.34566 259.64689 454.63654 266.24179 453.15625 267.14258 A 33.178297 33.178297 0 0 0 437.75 263.32227 A 33.178297 33.178297 0 0 0 425.0332 265.88672 C 422.37164 264.0156 413.92921 256.80511 408.96289 237.48633 z "
+         style="fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:0.99999994;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         sodipodi:nodetypes="cccc"
+         inkscape:connector-curvature="0"
+         id="path838-2"
+         d="m 109.275,276.69808 c 0,0 -0.96409,-1.85171 -0.99732,-5.9041 1.12366,3.966 2.31377,4.66743 2.31377,4.66743 z"
+         style="fill:#ffffff;stroke:#000000;stroke-width:0.17556849px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         sodipodi:nodetypes="cccc"
+         inkscape:connector-curvature="0"
+         id="path838-5-8"
+         d="m 122.70923,276.9186 c 0,0 0.96409,-1.85171 0.99732,-5.9041 -1.12366,3.966 -2.31377,4.66743 -2.31377,4.66743 z"
+         style="fill:#ffffff;stroke:#000000;stroke-width:0.17556849px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <ellipse
+         ry="2.8323724"
+         rx="2.7126946"
+         cy="280.73779"
+         cx="112.14726"
+         id="path865-9"
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <ellipse
+         ry="2.8323724"
+         rx="2.7126946"
+         cy="280.77768"
+         cx="118.92899"
+         id="path865-3-2"
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path882-6"
+         d="m 113.74296,284.76694 h 3.59033 l -1.83505,2.23399 z"
+         style="fill:#ffffff;stroke:#000000;stroke-width:0.17556849px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         d="m 115.40169,286.72168 a 2.2172306,1.9379817 0 0 1 -1.19343,1.71901 2.2172306,1.9379817 0 0 1 -2.29555,-0.13151"
+         sodipodi:open="true"
+         sodipodi:end="2.1816654"
+         sodipodi:start="0"
+         sodipodi:ry="1.9379817"
+         sodipodi:rx="2.2172306"
+         sodipodi:cy="286.72168"
+         sodipodi:cx="113.18446"
+         sodipodi:type="arc"
+         id="path884-6"
+         style="fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         transform="scale(-1,1)"
+         d="m -115.60009,286.72607 a 2.2172306,1.9379817 0 0 1 -1.19343,1.71902 2.2172306,1.9379817 0 0 1 -2.29556,-0.13152"
+         sodipodi:open="true"
+         sodipodi:end="2.1816654"
+         sodipodi:start="0"
+         sodipodi:ry="1.9379817"
+         sodipodi:rx="2.2172306"
+         sodipodi:cy="286.72607"
+         sodipodi:cx="-117.81732"
+         sodipodi:type="arc"
+         id="path884-5-4"
+         style="fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <ellipse
+         ry="2.1541986"
+         rx="0.83774394"
+         cy="280.85745"
+         cx="112.14726"
+         id="path903-9"
+         style="fill:#cccccc;fill-opacity:1;stroke:#fffffe;stroke-width:0.17556849;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <ellipse
+         ry="2.1541986"
+         rx="0.83774394"
+         cy="280.69788"
+         cx="119.08857"
+         id="path903-6-5"
+         style="fill:#cccccc;fill-opacity:1;stroke:#fffffe;stroke-width:0.17556849;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       id="g1008-0"
+       transform="matrix(0.66356597,0,0,0.66356597,80.957612,83.912897)"
+       inkscape:export-filename="/home/regio/git/mysiteandblog/assets/gitandhub.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
+      <circle
+         r="13.229166"
+         cy="250.69792"
+         cx="26.458334"
+         id="path819-4"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.41052151;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <g
+         id="g842-8">
+        <path
+           style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.28335872px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 15.825431,244.61376 c 0,0 -2.639887,-9.39124 -0.845881,-17.44633 2.368468,9.21323 6.767054,11.56555 6.767054,11.56555 z"
+           id="path821-71"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cccc" />
+        <path
+           style="fill:#ffffff;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 16.592696,242.23208 c 0,0 -1.452895,-2.79053 -1.502961,-8.89753 1.693366,5.97681 3.486871,7.03386 3.486871,7.03386 z"
+           id="path838-7"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cccc" />
+      </g>
+      <g
+         id="g842-6-2"
+         transform="matrix(-1,0,0,1,54.228374,0.3323319)">
+        <path
+           style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.28335872px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 15.825431,244.61376 c 0,0 -2.639887,-9.39124 -0.845881,-17.44633 2.368468,9.21323 6.767054,11.56555 6.767054,11.56555 z"
+           id="path821-7-7"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cccc" />
+        <path
+           style="fill:#ffffff;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 16.592696,242.23208 c 0,0 -1.452895,-2.79053 -1.502961,-8.89753 1.693366,5.97681 3.486871,7.03386 3.486871,7.03386 z"
+           id="path838-5-2"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cccc" />
+      </g>
+      <ellipse
+         ry="4.2684112"
+         rx="4.0880556"
+         cy="247.52251"
+         cx="20.921227"
+         id="path865-2"
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.32300007;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <ellipse
+         ry="4.2684112"
+         rx="4.0880556"
+         cy="247.58263"
+         cx="31.141365"
+         id="path865-3-6"
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.32300007;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path882-1"
+         d="m 23.325965,253.59447 h 5.410661 l -2.765449,3.36664 z"
+         style="fill:#ffffff;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         d="m 25.825693,256.54028 a 3.3413868,2.9205563 0 0 1 -1.798512,2.59057 3.3413868,2.9205563 0 0 1 -3.459426,-0.19819"
+         sodipodi:open="true"
+         sodipodi:end="2.1816654"
+         sodipodi:start="0"
+         sodipodi:ry="2.9205563"
+         sodipodi:rx="3.3413868"
+         sodipodi:cy="256.54028"
+         sodipodi:cx="22.484306"
+         sodipodi:type="arc"
+         id="path884-06"
+         style="fill:#000000;fill-opacity:1;stroke:#fffffe;stroke-width:0.31507754;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         transform="scale(-1,1)"
+         d="m -26.12468,256.54694 a 3.3413868,2.9205563 0 0 1 -1.798511,2.59056 3.3413868,2.9205563 0 0 1 -3.459427,-0.19819"
+         sodipodi:open="true"
+         sodipodi:end="2.1816654"
+         sodipodi:start="0"
+         sodipodi:ry="2.9205563"
+         sodipodi:rx="3.3413868"
+         sodipodi:cy="256.54694"
+         sodipodi:cx="-29.466066"
+         sodipodi:type="arc"
+         id="path884-5-1"
+         style="fill:#000000;fill-opacity:1;stroke:#fffffe;stroke-width:0.31507754;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <ellipse
+         ry="3.2463973"
+         rx="1.2624878"
+         cy="247.70287"
+         cx="20.921227"
+         id="path903-5"
+         style="fill:#000000;fill-opacity:1;stroke:#fffffe;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <ellipse
+         ry="3.2463973"
+         rx="1.2624878"
+         cy="247.46239"
+         cx="31.38184"
+         id="path903-6-9"
+         style="fill:#000000;fill-opacity:1;stroke:#fffffe;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       transform="matrix(0.65281293,0,0,-0.42257041,44.579291,350.8231)"
+       id="g1012-9-4"
+       style="fill:#4d4d4d;fill-opacity:1"
+       inkscape:export-filename="/home/regio/git/mysiteandblog/assets/gitandhub.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
+      <path
+         inkscape:connector-curvature="0"
+         id="path920-3-9"
+         d="m 38.292144,252.62206 c 0,0 2.608431,-15.54001 11.303203,-15.54001 8.694772,0 17.215649,0 17.215649,0 l 0.521686,-2.36477 H 48.551975 c 0,0 -9.321857,1.5324 -10.312531,13.09685 -0.990673,11.56445 0.0527,4.80793 0.0527,4.80793 z"
+         style="fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:0.18856898;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path992-1-0"
+         d="m 69.647243,235.61906 -7.454688,-5.77138 0.240471,11.78322 z"
+         style="fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    </g>
+    <g
+       transform="matrix(0.73917172,0,0,0.68891095,33.208133,58.112977)"
+       id="g1012-9-9"
+       style="fill:#4d4d4d;fill-opacity:1"
+       inkscape:export-filename="/home/regio/git/mysiteandblog/assets/gitandhub.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
+      <path
+         inkscape:connector-curvature="0"
+         id="path920-3-1"
+         d="m 38.292144,252.62206 c 0,0 2.608431,-15.54001 11.303203,-15.54001 8.694772,0 17.215649,0 17.215649,0 l 0.521686,-2.36477 H 48.551975 c 0,0 -9.321857,1.5324 -10.312531,13.09685 -0.990673,11.56445 0.0527,4.80793 0.0527,4.80793 z"
+         style="fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:0.18856898;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path992-1-7"
+         d="m 69.647243,235.61906 -7.454688,-5.77138 0.240471,11.78322 z"
+         style="fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    </g>
+    <path
+       style="fill:#808080;fill-opacity:1;stroke:#000000;stroke-width:0.99999994;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 465.62305 8.1035156 L 465.95312 18.994141 L 420.50586 18.994141 C 420.50586 18.994141 389.67326 22.421294 386.39648 48.283203 C 383.11971 74.14515 386.57031 59.035156 386.57031 59.035156 C 386.57031 59.035156 395.19808 24.28125 423.95703 24.28125 L 466.11133 24.28125 L 466.41992 34.455078 L 490.28125 21.009766 L 465.62305 8.1035156 z "
+       transform="matrix(0.26458333,0,0,0.26458333,0,204.39584)"
+       id="path920-3-94"
+       inkscape:export-filename="/home/regio/git/mysiteandblog/assets/gitandhub.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="fill:#808080;fill-opacity:1;stroke:#000000;stroke-width:0.99999994;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 325.96484 1.0429688 C 322.46244 16.768727 325.67343 34.374204 327.2793 41.470703 A 33.178297 33.178297 0 0 0 321.57617 60.056641 A 33.178297 33.178297 0 0 0 354.75391 93.234375 A 33.178297 33.178297 0 0 0 387.93164 60.056641 A 33.178297 33.178297 0 0 0 384.51562 45.435547 L 384.71094 45.630859 C 384.71094 45.630859 391.33133 22.076877 386.83203 1.875 C 381.3474 23.210017 371.63247 29.800689 370.1582 30.697266 A 33.178297 33.178297 0 0 0 354.75391 26.876953 A 33.178297 33.178297 0 0 0 342.03711 29.443359 C 339.37555 27.572245 330.93117 20.361753 325.96484 1.0429688 z "
+       transform="matrix(0.26458333,0,0,0.26458333,0,204.39584)"
+       id="path819-31-7"
+       inkscape:export-filename="/home/regio/git/mysiteandblog/assets/gitandhub.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.17556849px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 87.844707,214.13876 c 0,0 -0.964091,-1.8517 -0.997313,-5.9041 1.12366,3.96601 2.313769,4.66743 2.313769,4.66743 z"
+       id="path838-2-5"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccc"
+       inkscape:export-filename="/home/regio/git/mysiteandblog/assets/gitandhub.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.17556849px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 100.74977,214.35928 c 0,0 0.96409,-1.85171 0.99732,-5.9041 -1.12366,3.966 -2.313765,4.66743 -2.313765,4.66743 z"
+       id="path838-5-8-7"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccc"
+       inkscape:export-filename="/home/regio/git/mysiteandblog/assets/gitandhub.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <ellipse
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path865-9-7"
+       cx="90.187813"
+       cy="218.17848"
+       rx="2.7126946"
+       ry="2.8323722"
+       inkscape:export-filename="/home/regio/git/mysiteandblog/assets/gitandhub.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <ellipse
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path865-3-2-6"
+       cx="96.969536"
+       cy="218.21837"
+       rx="2.7126946"
+       ry="2.8323722"
+       inkscape:export-filename="/home/regio/git/mysiteandblog/assets/gitandhub.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="fill:#808080;stroke:#000000;stroke-width:0.17556849px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 91.783502,222.20762 h 3.59033 l -1.83505,2.23399 z"
+       id="path882-6-7"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/regio/git/mysiteandblog/assets/gitandhub.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="fill:#808080;fill-opacity:1;stroke:#000000;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path884-6-3"
+       sodipodi:type="arc"
+       sodipodi:cx="91.225014"
+       sodipodi:cy="224.16237"
+       sodipodi:rx="2.2172306"
+       sodipodi:ry="1.9379817"
+       sodipodi:start="0"
+       sodipodi:end="2.1816654"
+       sodipodi:open="true"
+       d="m 93.442244,224.16237 a 2.2172306,1.9379817 0 0 1 -1.193431,1.71901 2.2172306,1.9379817 0 0 1 -2.295557,-0.13151"
+       inkscape:export-filename="/home/regio/git/mysiteandblog/assets/gitandhub.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="fill:#808080;fill-opacity:1;stroke:#000000;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path884-5-4-6"
+       sodipodi:type="arc"
+       sodipodi:cx="-95.857872"
+       sodipodi:cy="224.16676"
+       sodipodi:rx="2.2172306"
+       sodipodi:ry="1.9379817"
+       sodipodi:start="0"
+       sodipodi:end="2.1816654"
+       sodipodi:open="true"
+       d="m -93.640641,224.16676 a 2.2172306,1.9379817 0 0 1 -1.193432,1.71902 2.2172306,1.9379817 0 0 1 -2.295557,-0.13152"
+       transform="scale(-1,1)"
+       inkscape:export-filename="/home/regio/git/mysiteandblog/assets/gitandhub.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <ellipse
+       style="fill:#808080;fill-opacity:1;stroke:#fffffe;stroke-width:0.17556849;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path903-9-5"
+       cx="90.187813"
+       cy="218.29814"
+       rx="0.83774388"
+       ry="2.1541986"
+       inkscape:export-filename="/home/regio/git/mysiteandblog/assets/gitandhub.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <ellipse
+       style="fill:#808080;fill-opacity:1;stroke:#fffffe;stroke-width:0.17556849;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path903-6-5-6"
+       cx="97.129128"
+       cy="218.13857"
+       rx="0.83774388"
+       ry="2.1541986"
+       inkscape:export-filename="/home/regio/git/mysiteandblog/assets/gitandhub.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+  </g>
+</svg>

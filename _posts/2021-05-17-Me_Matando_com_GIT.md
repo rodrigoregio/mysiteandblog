@@ -1,0 +1,29 @@
+---
+layout: post
+title: Me matando com Git e GitHub
+excerpt_separator: <!--more-->
+tags: git
+comments: true
+---
+Como (acredito que) todo mundo sabe estou trabalhando como Desenvolvedor Jr, e uma das ferramentas mais utilizadas por lá é o git.<!--more--> Ainda não tenho muitos conhecimentos nela, mas já percebi que ela é uma poderosa ferramenta para edição de código, onde você pode voltar a pontos que estavam corretos, verificar se o código novo alterou o comportamento do antigo, etc.<br>
+<img src="/assets/images/gitandhub.png" class="post_img" alt="GIT e GITHUB, assimilando com octocats kkkk"><br>
+Então vamos lá a nosso problema com o git, meu bot, e heroku (sim coloquei meu bot no heroku mas não gostei, contarei mais no post).<br>
+Então, coloquei o bot no Heroku, mas percebia que tinha alguns defeitos, não era como rodar ele localmente, um dos defeitos era que quando dava o !ec (comando que pega uma frase aleatória entre algumas frases) a maioria ficava incompleto, em uma frase muito grande como "Não jogue bola dentro de casa, ela pode quebrar algo que você goste, aprendi sozinho!" essa frase ficava sem o inicio e o final. Outro defeito que percebi no Heroku era que alguns dados se perdiam em alguns tempos vivia apagando meus !ec.<br>
+E se apaga as frases de um simples comando desses com certeza se apagariam outros dados que posso julgar importantes para as lives. E ainda percebia que pra rodar o bot na Heroku tinha que fazer alguns ajustes. Então resolvi retirar o bot do Heroku. Mas para isso tinha que remover alguns commits (para quem não sabe commits são alterações no código que julgamos serem importantes) que fiz pois foram a maioria para a Heroku, como pode ver abaixo. do ponto que queria voltar pra frente foram basicamente para a Heroku. Então tinha que fazer voltar... 
+<pre>
+
+                         -----(commit que queria voltar)
+   inicio           /
+----*---------------*-----------*---*---*---*---* (estou aqui "commits para o heroku")
+     \
+       ----*---*---*---*(outros commits menos importantes que abandonei)
+
+</pre>
+Então pesquisando na internet encontrei como voltar ao ponto desejado, e encontrei este <a href="https://pt.stackoverflow.com/questions/21540/como-fa%C3%A7o-para-voltar-a-commit-anteriores-de-um-branch-remoto">post</a> na StackOverflow (este site é como um forum que as pessoas se ajudam, muito utilizado por desenvolvedores) onde dizia que para voltar ao commit desejado tinha que ficar fazendo o comando "git reset --hard HEAD~1" e foi o que fiz.<br>
+O que este comando acima faz é dizer para o git "Git, zere todas as alterações que fiz nesse commit".<br>
+E quando cheguei no ponto desejado não sabia como apagar os commits, então percebi que no git quando você envia um commit eles não são apagados (posso estar falando besteira aqui, mas é o que acho kkk) eles são abandonados. Então no ponto que desejava voltar digitei o comando "git branch -b NovosCommits" (o nome novoscommits é ficticio kkk) fiz uma pequena alteração no código e dei o comando "git add -p" e dei o "git commit" para enviar algo nesse novo caminho chamado "NovosCommits" e na hora que dei o "git push" (que envia essa alteração ao github) ele não deixou, justamente por ter voltado alguns commits, então eu precisava fazer com que o meu git local seja o mesmo do remoto (no caso o github).<br>
+Então pesquisando mais um pouco descobri que devo fazer alguns comandos para enviar essa pequena alteração, e no post dizia para dar o comando "git push origin NovosCommits --force" e assim foi feito, e o caso foi resolvido...<br>
+Só resolvi fazer esse post pois ainda tenho muita dificuldade com o git, e como podem ver ele foi bem útil, e um completo iniciante (como eu era / e ainda sou) talvez sem a ajuda da internet não conseguiria resolver. E ainda para complementar o post não sei se esse seria o melhor método para fazer isso, muito provavelmente meu coordenador faria de outra forma, mas como ainda estou iniciando nele resolvi fazer esse post.<br> Ah e o gráfico do meu projeto ficou da forma como na figura abaixo.<br>
+<img src="/assets/images/repositorioBot.png" alt="Grafico repositório github"><br>
+A imagem acima foi tirada hoje (24/05/2021) e como podem ver já havia abandonado duas branches, a primeira (com a linha azul) foi um negocio que criei e desisti no caminho (Conceito, uma "moderação" para o chat), a segunda é a do Heroku e hoje estou tentando fazer outras coisas...<br>
+E é isso... apesar de simples fiquei feliz por ter conseguido.
