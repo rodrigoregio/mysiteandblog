@@ -39,25 +39,5 @@ Essa HttpManager é o que realiza a conexão, criamos um metodo chamado **getDad
 Após retornar ao doInBackground retornamos a string conseguida na api. Na classe do AsyncTask também sobrescrevi outros dois métodos o **onPreExecute** (nele coloquei para que mostre somente um progressbar (item com a animação de que está carregando) e outro chamado **onPostExecute** (fiz com que ele desabilite a animação do progressbar e chame um metodo chamado atualizarView(String s) este método somente coloca a string retornada no doInBackground em um TextView.<br/><br/>
 
 E por enquanto é somente estes passos que meu aplicativo faz, e é isto que entendi o sobre acesso a API's com Android.<br/><br/>
-{% if page.comments %}
-<div id="disqus_thread"></div>  
-<script>
 
-/**
-*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
-/*
-var disqus_config = function () {
-this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-};
-*/
-(function() { // DON'T EDIT BELOW THIS LINE
-var d = document, s = d.createElement('script');
-s.src = 'https://rregio-top.disqus.com/embed.js';
-s.setAttribute('data-timestamp', +new Date());
-(d.head || d.body).appendChild(s);
-})();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-{% endif %}
+{% include postcomments.html %}

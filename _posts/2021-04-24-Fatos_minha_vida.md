@@ -14,25 +14,4 @@ Então nós jogando, bola vai, bola vem e em um momento fui querer enterrar a bo
 Eu nunca fui muito sociável, então não tinha muito contato com ela e nem sei se ela era da minha classe ou não (antes também costumavam misturar classes que estavam sem professor) e muito menos lembro o nome dela então depois desse episódio não tive mais contato com ela... Tudo que lembro é que devido ao episódio minha mãe teve que ir na escola (não sei o porque, visto que foi totalmente sem intenção, havia muitas pessoas no local que viram que foi sem intenção) e então nem ela lembra quem era a menina.<br><br>
 Então menina, hoje mulher né, de uns 40 anos (acho que deve ser mais ou menos minha idade né kkkk) se você perdeu um dente na escola. E é ou foi da região do Parque Santana em Santana de Parnaíba muito provavelmente fui eu quem quebrou seu dente, se fui eu chega aqui e peço mil desculpas, e vamos conversar sobre o antes / depois do ocorrido. Você lembra se eramos da mesma sala?? o que houve com você depois disso??<br><br>
 Bom é isso kkk novamente "Peço mil desculpas a você mulher do ocorrido" e se algo parecido já aconteceu com você conte aqui nos comentários kkkk... Tenho outros fatos para contar, mas né kkkk alguns tenho vergonha, outros não tão legais e não sei se conto aqui...
-{% if page.comments %}
-<div id="disqus_thread"></div>  
-<script>
-
-/**
-*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
-/*
-var disqus_config = function () {
-this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-};
-*/
-(function() { // DON'T EDIT BELOW THIS LINE
-var d = document, s = d.createElement('script');
-s.src = 'https://rregio-top.disqus.com/embed.js';
-s.setAttribute('data-timestamp', +new Date());
-(d.head || d.body).appendChild(s);
-})();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-{% endif %}
+{% include postcomments.html %}

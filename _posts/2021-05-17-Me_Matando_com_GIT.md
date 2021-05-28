@@ -18,4 +18,5 @@ Então pesquisando mais um pouco descobri que devo fazer alguns comandos para en
 Só resolvi fazer esse post pois ainda tenho muita dificuldade com o git, e como podem ver ele foi bem útil, e um completo iniciante (como eu era / e ainda sou) talvez sem a ajuda da internet não conseguiria resolver. E ainda para complementar o post não sei se esse seria o melhor método para fazer isso, muito provavelmente meu coordenador faria de outra forma, mas como ainda estou iniciando nele resolvi fazer esse post.<br> Ah e o gráfico do meu projeto ficou da forma como na figura abaixo.<br>
 <img src="/assets/images/repositorioBot.png" alt="Grafico repositório github"><br>
 A imagem acima foi tirada hoje (24/05/2021) e como podem ver já havia abandonado duas branches, a primeira (com a linha azul) foi um negocio que criei e desisti no caminho (Conceito, uma "moderação" para o chat), a segunda é a do Heroku e hoje estou tentando fazer outras coisas...<br>
-E é isso... apesar de simples fiquei feliz por ter conseguido.
+E é isso... apesar de simples fiquei feliz por ter conseguido.<br>
+{% include postcomments.html %}
