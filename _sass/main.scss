@@ -132,10 +132,11 @@ a:link{
     font-size: 1.5em;
     background-color: var(--itenspagina);
 }
-#sitetags li{
+#sitetags td{
     list-style: none;
-    line-height: 10px;
+    line-height: 20px;
     padding: 10px;
+    text-align: left;
 }
 #sitetags p{
     list-style: none;

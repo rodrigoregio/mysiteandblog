@@ -17,12 +17,15 @@ title: blog
 <section id="sitetags" class="grid-item">
     <div class="separador"></div>
     <h1>Tags:</h1>
-    {% for tag in site.tags %}
-    <p>{{ tag[0] }}</p>
-    <ul>
-        {% for post in tag[1] %}
-            <li style="list-style: none;"><a href="{{ post.url }}">{{ post.title }}</a></li>
-        {% endfor %}
-    </ul>
-    {% endfor %}
+    <table>
+        {% for tag in site.tags %}
+        <tr>
+            <td class="tagpost">{{ tag[0] | upcase }}:</td>
+                <td>{% for post in tag[1] %}
+                    <a href="{{ post.url }}">{{ post.title | downcase }}</a>
+                {% endfor %}</td>
+
+            {% endfor %}
+        </tr>
+    </table>
 </section>
